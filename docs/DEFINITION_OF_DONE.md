@@ -18,3 +18,7 @@ Change is done only if:
 
 5. **Status metadata is current**
    - `Last updated` and `Status` are updated in changed docs.
+
+6. **DB changes are versioned**
+   - Any schema/RLS/RPC/index/trigger change has a SQL migration file in `supabase/migrations/`.
+   - Manual UI-only DB changes are not accepted without migration backfill.

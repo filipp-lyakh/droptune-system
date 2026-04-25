@@ -15,11 +15,13 @@ This repository is the cross-platform source of truth for architecture, data con
 - `docs/core/DEEP_LINKS.md` for deep-link contract changes.
 - `docs/core/ROADMAP.md` for product/cross-platform milestone changes.
 - `docs/adr/*` for major architectural decisions.
+- `supabase/migrations/*` for schema/RLS/RPC/index/trigger changes.
 
 ## Change policy
 - Small wording fixes: update file directly.
 - Contract/behavior changes: update core doc + add/update ADR when needed.
 - Platform execution details: update only corresponding platform doc.
+- DB changes: add SQL migration + update DATA_MODEL semantics when affected.
 
 ## Review checklist for every PR
 - Is this change cross-platform? If yes, is core doc updated?
