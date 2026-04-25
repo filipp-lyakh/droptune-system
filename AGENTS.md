@@ -28,3 +28,13 @@ This repository is the cross-platform source of truth for architecture, data con
 - Is this decision architectural? If yes, is ADR updated/added?
 - Are links in entrypoint docs still valid?
 - Are statuses/dates updated where relevant?
+
+## Database change policy (mandatory)
+- Any schema/RLS/RPC/index/trigger change must be delivered via SQL migration files in `supabase/migrations/*`.
+- No UI-only Supabase changes are accepted as final state.
+- If emergency UI change was made, create migration backfill ASAP.
+- For DB changes, require:
+  1) migration file
+  2) updated `docs/core/DATA_MODEL.md` when semantics/contract changed
+  3) risk note + rollback/forward-fix strategy
+  4) post-apply smoke-check notes
