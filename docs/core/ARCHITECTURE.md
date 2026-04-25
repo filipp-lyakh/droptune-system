@@ -10,49 +10,23 @@ Droptune = music player + limited collectible albums.
 Backend: Supabase (Postgres + Storage + Auth + RLS).  
 Clients: **Flutter** (player app) and **Next.js** (public web: catalog, album landing, purchase).
 
-## Web app (Next.js) — `droptune-web`
+## Web app (contract-level)
 
-### Routes (album-related)
-- **`/album/[id]`** — primary public album page: hero, stickers, purchase / “Open in Droptune”, related albums, “What is Droptune”, footer. Links from catalog and “My albums” point here.
-- **`/albums/[id]`** — separate slim purchase-focused screen; does **not** mirror full album UI or theming from `background_color`.
+### Public routes
+- `/album/[id]` is the canonical public album route for acquisition and post-purchase owned-state behavior.
+- `/albums/[id]` may exist as a separate purchase-focused route and is not required to mirror full album presentation.
+- `/for-artists` is the artist-focused acquisition/education route.
+- `/main` is a generic navigation entrypoint.
 
-### Routes (marketing/navigation)
-- **`/for-artists`** — artist-focused marketing landing page (explanation of release model, value proposition, CTA).
-- **`/main`** — temporary hub page (navigation entrypoint for key web sections); intended to evolve into a full “split entry” page.
+### Contract expectations
+- Web must support unauthenticated viewing of public album pages.
+- Buy intent must survive auth redirect and continue purchase after callback.
+- Owned albums must expose “Open in Droptune” behavior through canonical deep-link format.
+- Web consumes optional album presentation fields with safe fallbacks (see `docs/core/DATA_MODEL.md`).
 
-### Global app shell (layout)
-- `Header` and `SiteFooter` are rendered from root layout (`src/app/layout.tsx`) on all routes.
-- Header horizontal paddings are unified to **32px** to match album-page reference spacing.
-- Header logo uses SVG assets from `public/`: `logo_black.svg` on light surfaces and `logo_white.svg` on dark surfaces (artist landing and dark album hero).
-- Footer is a single shared component (`src/components/SiteFooter.tsx`), based on album footer links/style.
-- Layout uses a flex column shell (`body` + content container) so footer behavior is consistent: if content is short, footer sticks to viewport bottom; if content is long, footer stays after content.
-
-### Data loading (`src/app/album/[id]/page.tsx`)
-- Album row is loaded with a **progressive `select()` chain**: longest field list first, then shorter lists if PostgREST returns undefined-column errors (`42703`). This keeps older DB schemas working.
-- Order accounts for optional columns: e.g. attempts with **`background_color` but without `hero_background_color`** so the page still gets a page background if only one of the two columns exists.
-- **Normalization:** `background_color` may be stored as `RRGGBB` without `#`; the client prepends `#` when it matches six hex digits.
-
-### Page background and contrast
-- **`albums.background_color`** drives `backgroundColor` on the album page root and hero (see **docs/core/DATA_MODEL.md**).
-- If the color is a **dark** `#RRGGBB` (relative luminance below a fixed threshold), the hero block sets **`data-hero-dark-bg="true"`** and CSS switches title/artist/year (and related hero copy) to light text.
-- **Header:** the layout renders `Header` **outside** the album page tree. The album page dispatches a browser event **`droptune:album-header-light`** (`detail: { on: boolean }`) so the header can switch logo and nav links to light colors on dark album backgrounds.
-
-### Cover gallery modal
-- **Desktop (≥768px):** horizontal scroll of cards; `scrollLeft` drives blurred-image index cycling on track cards.
-- **Mobile (≤767px):** vertical column, **8px** gap between cards; text card height follows content (no inner scroll). Same scroll-driven art index using **`scrollTop`**.
-- Modal backdrop color: `hero_background_color` if set, else page background color.
-
-### Responsive album page (≤767px)
-- Rules live mainly in global CSS: no white “stack” stripes on cover, **8px** side inset for cover vs **24px** for other blocks, hero flex spacers with ratio **0.25X : X : X : 2X**, compact stickers, related/droptune typography.
-- Shared footer vertical stack on mobile with **32px** horizontal inset for nav/copy.
-
-### Typography
-- **Inter** (`next/font/google`, subsets `latin` + `cyrillic`), CSS variable **`--font-inter`**.
-- **Geist Mono** remains for monospace tokens only.
-
-### Other references
-- Purchase redirect and ownership: see sections below.
-- Deep links: **docs/core/DEEP_LINKS.md**.
+### Implementation details
+- Web-specific routing, layout, CSS behavior, and component-level notes are documented in:
+  - `docs/platform/web/ARCHITECTURE_WEB.md`
 
 ---
 

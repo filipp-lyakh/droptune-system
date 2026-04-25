@@ -13,8 +13,8 @@ Goal: “Play + ownership without blockchain complexity”
 - Track page (optional separate route): arts gallery + mini player; Hero for shared-element transition
 - Model: limited copies + ownership history in Postgres
 - Payments (web-only first), then unlock in app
-- Web shell consistency: single header/footer across routes (layout-level components)
-- Artist acquisition landing: `/for-artists` + temporary hub at `/main`
+- Consistent global shell and navigation experience across clients (platform-specific implementation details are documented in platform roadmaps)
+- Artist acquisition and listener entrypoint flows are defined per platform while keeping shared product positioning
 
 Deliverables:
 - Data model v1 (album copies + ownership)
