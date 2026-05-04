@@ -2,8 +2,11 @@
 
 Status: source-of-truth  
 Owners: Product + Engineering  
-Last updated: 2026-04-25  
+Last updated: 2026-05-04
 Consumers: droptune-web, droptune_mobile
+
+Schema baseline: `supabase/migrations/20260425210000_baseline.sql`
+Current alignment migration: `supabase/migrations/20260504195200_align_data_model_v1.sql`
 
 ## Core tables (current)
 
@@ -12,9 +15,9 @@ Consumers: droptune-web, droptune_mobile
 - title (text)
 - artist_name (text)
 - cover_image_url (text, nullable)
-- price (numeric/int)
-- supply_total (int, nullable)
-- release_year (int, nullable)
+- price (numeric, nullable)
+- supply_total (integer, nullable)
+- release_year (integer, nullable)
 - gallery_description (text, nullable)
 - video_embed_url (text, nullable)
 - hero_background_color (text, nullable)
@@ -22,18 +25,19 @@ Consumers: droptune-web, droptune_mobile
 
 Notes:
 - `background_color` is web album page + hero background (`#RRGGBB` or `RRGGBB`, normalized on client).
-- `hero_background_color` is optional gallery modal backdrop tint on web.
+- `hero_background_color` is optional gallery modal backdrop tint on web and follows the same color format.
+- `supply_total` is display/catalog supply metadata. Copy issuance is still enforced by `album_copies` availability.
 
 ### tracks
 - id (uuid, pk)
 - album_id (uuid, fk -> albums.id)
 - title (text)
 - audio_url (text)
-- track_number (int)
+- track_number (bigint/integer-like)
 
 ### purchases (legacy/MVP source in some flows)
 - id (uuid, pk)
-- user_identifier (uuid/text)
+- user_identifier (uuid)
 - album_id (uuid)
 - created_at (timestamp)
 
@@ -44,7 +48,7 @@ Notes:
 - type (text)
 - content_url (text)
 - meta (jsonb)
-- order (int)
+- order (bigint, nullable)
 
 Web gallery semantics:
 - First query tries `id, track_id, content_url, order` + `.order("order")`.
@@ -73,20 +77,29 @@ Web uses `preview_kind = 'blurred_image'`; when present, preview URLs are used o
 - copy_id (uuid, pk/unique fk -> album_copies.id)
 - owner_user_id (uuid)
 - acquired_at (timestamp)
-- acquired_via (text)
-- last_tx_id (uuid, nullable)
+- acquired_via (text, non-null; current defaults/backfill use `unknown`)
+- last_tx_id (uuid, nullable fk -> transactions.id)
+
+Notes:
+- `copy_ownership` is the current ownership snapshot.
+- `last_tx_id` points to the transaction that most recently produced the current owner.
+- Current primary issuance values use `primary_purchase` for paid fulfillment, `claim` for authenticated direct claims, and `admin_claim` for service/admin claims.
 
 ### transactions
 - id (uuid, pk)
 - copy_id (uuid, fk)
 - from_user_id (uuid, nullable)
 - to_user_id (uuid)
-- price (numeric/int)
+- price (numeric)
 - currency (text)
 - type (text)
-- status (text)
-- created_at
-- completed_at
+- status (text; `pending`, `completed`, `failed`, `canceled`)
+- created_at (timestamp)
+- completed_at (timestamp, nullable)
+
+Notes:
+- Primary fulfillment writes completed transactions immediately.
+- Future resale flows may use `pending` before settlement.
 
 ## Payment Orders
 
@@ -120,3 +133,18 @@ Main stages:
 - `paid_marked`
 - `fulfill_success`
 - `fulfill_failed`
+
+## DB change notes
+
+### 2026-05-04 — Data model v1 alignment
+
+Migration: `supabase/migrations/20260504195200_align_data_model_v1.sql`
+
+Purpose:
+- Add documented album presentation/supply fields missing from the baseline schema.
+- Add ownership provenance (`acquired_via`, `last_tx_id`) and transaction lifecycle fields (`status`, `completed_at`).
+- Replace ownership-issuing RPC bodies so new rows keep `copy_ownership.last_tx_id`, `payment_orders.transaction_id`, and `transactions.status` in sync.
+
+Verification minimum after applying:
+- Query new columns on `albums`, `copy_ownership`, and `transactions`.
+- Complete a staging/mock paid order and verify the fulfilled order has a `copy_id`, `transaction_id`, matching `copy_ownership.last_tx_id`, and a `completed` transaction.
