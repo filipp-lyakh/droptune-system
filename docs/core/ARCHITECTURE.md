@@ -2,7 +2,7 @@
 
 Status: source-of-truth  
 Owners: Product + Engineering  
-Last updated: 2026-04-25  
+Last updated: 2026-05-04
 Consumers: droptune-web, droptune_mobile
 
 ## High-level
@@ -94,6 +94,16 @@ The following sections describe the **mobile app** unless noted otherwise.
 - Clients may create payment orders but cannot mark them paid/fulfilled.
 - Clients must never call `fulfill_payment_order` directly.
 - Ownership issuance is backend-only.
+- Client roles (`anon`, `authenticated`) must not have `EXECUTE` on ownership-issuing RPCs:
+  - `claim_album_copy`
+  - `claim_album_copy_for_user`
+  - `fulfill_payment_order`
+- `authenticated` may `SELECT` and `INSERT` its own `payment_orders` rows through RLS, but must not `UPDATE` payment lifecycle fields.
+- `service_role` is the trusted backend role for payment status transitions and ownership fulfillment.
+
+Security alignment migrations:
+- `supabase/migrations/20260504202500_lock_down_ownership_fulfillment.sql`
+- `supabase/migrations/20260504203500_revoke_public_execute_on_trusted_rpcs.sql`
 
 ## Debug and tracing (payments)
 Payment progress/errors are recorded in `payment_orders.metadata.debug`:

@@ -2,7 +2,7 @@
 
 Status: source-of-truth  
 Owners: Product + Engineering  
-Last updated: 2026-04-25  
+Last updated: 2026-05-04
 Consumers: droptune-web, droptune_mobile
 
 ## Product model
@@ -18,6 +18,8 @@ Consumers: droptune-web, droptune_mobile
 - `copy_ownership` is the current ownership snapshot.
 - `transactions` is immutable transfer history.
 - Users can only read ownership data they are authorized to access via RLS.
+- Users and public clients cannot issue ownership directly.
+- Ownership-issuing RPCs are backend-only and must only be executable by trusted backend roles.
 
 ## Deep-link policy
 - Canonical app album deep link: `droptune://album/{albumId}`.
