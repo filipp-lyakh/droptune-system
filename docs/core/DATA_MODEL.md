@@ -2,7 +2,7 @@
 
 Status: source-of-truth  
 Owners: Product + Engineering  
-Last updated: 2026-05-04
+Last updated: 2026-06-06
 Consumers: droptune-web, droptune_mobile
 
 Schema baseline: `supabase/migrations/20260425210000_baseline.sql`
@@ -35,6 +35,9 @@ Notes:
 - audio_url (text)
 - track_number (bigint/integer-like)
 
+Notes:
+- For admin ingestion, `track_number` must be unique within one album (`album_id + track_number` uniqueness is required at DB level).
+
 ### purchases (legacy/MVP source in some flows)
 - id (uuid, pk)
 - user_identifier (uuid)
@@ -54,6 +57,7 @@ Web gallery semantics:
 - First query tries `id, track_id, content_url, order` + `.order("order")`.
 - If that fails (older schema without `order`), retry with `id, track_id, content_url`.
 - Rows are sorted in memory with `(order ?? 0)` when field exists.
+- `type` is intentionally flexible (`image`, `gif`, `video`, etc.), but current client rendering is image-first (see media compatibility notes below).
 
 ### track_previews
 - id (uuid, pk)
@@ -64,6 +68,63 @@ Web gallery semantics:
 - meta (jsonb, optional)
 
 Web uses `preview_kind = 'blurred_image'`; when present, preview URLs are used over `art_containers` URLs.
+Current DB check constraint allows: `blurred_image`, `video_still`, `blurred_video`.
+
+## Media storage convention (MVP admin ingestion)
+
+Status: required for all **new** admin uploads.
+
+### Bucket
+- Single public Supabase Storage bucket: `media`.
+
+### Path templates
+- Album cover: `albums/{album_id}/cover.{ext}` -> `albums.cover_image_url`
+- Track audio: `albums/{album_id}/tracks/{track_number}/audio.{ext}` -> `tracks.audio_url`
+- Track art: `albums/{album_id}/tracks/{track_number}/art/{order}.{ext}` -> `art_containers.content_url`
+- Track previews: `albums/{album_id}/tracks/{track_number}/previews/{preview_order}.{ext}` -> `track_previews.content_url`
+
+### URL policy
+- DB stores full public URL (not storage path), for example:
+- `https://<project>.supabase.co/storage/v1/object/public/media/albums/{album_id}/tracks/1/audio.mp3`
+
+### Naming rules
+- Lowercase only.
+- No spaces.
+- Do not use original uploader filenames.
+- Do not include artist/title names in paths.
+- Allowed characters in filenames: `a-z`, `0-9`, `-`, `_`, `.`
+- Ordered assets use numeric filenames: `1.jpg`, `2.jpg`, `3.mp4`, etc.
+- File extension must match real content type.
+
+### Mutability policy
+- Published album media is immutable in MVP.
+- Overwrite is allowed only during draft stage.
+- If replacement is needed after publish, create a new album/release instead of overwriting files.
+
+### Legacy paths
+- Existing legacy URLs are kept as-is.
+- No automatic storage backfill/move is required for MVP.
+- All new admin uploads must follow this convention.
+
+## Media compatibility notes (current clients)
+
+### Current rendering behavior
+- `droptune-web` gallery currently renders track art via `<img>` URLs.
+- `droptune_mobile`/`droptune_mobile2` track gallery currently renders art via `Image.network`.
+- Because of this, image formats work in current UI; direct video playback from `art_containers.content_url` is not yet implemented in clients.
+
+### Practical support in MVP now
+- Cover/preview/art images: `jpg`, `jpeg`, `png`, `webp` are safe defaults.
+- Animated images:
+  - `gif` works on web and is generally supported on mobile image widgets.
+  - Animated `webp` support can vary by client/runtime and should be validated on target devices before mass usage.
+- Video files (`mp4`, `webm`, `mov`) can be stored in `art_containers`, but current clients will not render them as video without explicit player logic.
+
+### Admin upload validation policy (MVP)
+- Admin ingestion must **not** block video files for `art_containers`.
+- Allowed `art_containers` upload classes: static images, animated images (including `gif`), and video files.
+- Validation in admin flow should enforce only file presence/basic upload correctness for `art_containers` (no image-only restriction).
+- UI rendering can remain image-first in clients until dedicated video rendering is implemented.
 
 ## Ownership model
 
@@ -133,6 +194,21 @@ Main stages:
 - `paid_marked`
 - `fulfill_success`
 - `fulfill_failed`
+
+## Admin ingestion model (MVP)
+
+### admin_album_drafts
+- id (uuid, pk)
+- status (text; `draft`, `uploading`, `ready_to_publish`, `publishing`, `published`, `failed`)
+- payload (jsonb)
+- created_by (uuid, fk -> auth.users.id)
+- published_album_id (uuid, nullable fk -> albums.id)
+- last_error (text, nullable)
+- created_at, updated_at (timestamp)
+
+Rules:
+- Table is backend-admin only (service role). Public/client roles have no access.
+- Used as draft workspace for admin upload flow before writing final rows into `albums`, `tracks`, `art_containers`, `track_previews`, `album_copies`.
 
 ## DB change notes
 

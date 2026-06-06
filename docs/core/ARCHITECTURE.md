@@ -2,7 +2,7 @@
 
 Status: source-of-truth  
 Owners: Product + Engineering  
-Last updated: 2026-05-04
+Last updated: 2026-06-06
 Consumers: droptune-web, droptune_mobile
 
 ## High-level
@@ -60,6 +60,12 @@ The following sections describe the **mobile app** unless noted otherwise.
 - Auth: email OTP
 - RLS must prevent reading purchases of other users
 - Storage: public URLs currently used for audio
+
+## Admin ingestion (MVP)
+- Album media ingestion is done through internal admin flow (draft -> upload -> publish).
+- New admin uploads must follow the canonical storage convention in `docs/core/DATA_MODEL.md` (bucket/path templates + URL policy).
+- Published albums are immutable in MVP (no media overwrite/edit flow after publish).
+- Legacy media paths remain valid; no automatic backfill is required for MVP.
 
 ## Web acquisition and purchase flow
 

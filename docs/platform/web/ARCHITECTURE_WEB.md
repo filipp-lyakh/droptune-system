@@ -2,7 +2,7 @@
 
 Status: web-specific  
 Owners: Web Engineering  
-Last updated: 2026-04-25  
+Last updated: 2026-06-06  
 Depends on: `docs/core/ARCHITECTURE.md`, `docs/core/DATA_MODEL.md`, `docs/core/DEEP_LINKS.md`
 
 ## Scope
@@ -49,3 +49,16 @@ Core system contracts remain in `docs/core/*`.
 ## Typography
 - Inter (`--font-inter`) as primary sans font.
 - Geist Mono retained for monospace tokens only.
+
+## Internal admin upload (MVP)
+- Route: `/admin`.
+- Access policy: authenticated user + email allowlist (`ADMIN_UPLOAD_ALLOWLIST`).
+- API surface under `src/app/api/admin/*`:
+  - draft CRUD (`/drafts`, `/drafts/[id]`)
+  - upload session and finalize (`/uploads/session`, `/uploads/complete`)
+  - publish (`/drafts/[id]/publish`)
+- Upload flow:
+  1. Create signed upload URL on backend (`service_role`).
+  2. Browser uploads directly to Supabase Storage signed target.
+  3. Backend persists resulting media URL into draft payload.
+- Publish writes from draft payload into `albums`, `tracks`, `art_containers`, `track_previews`, and `album_copies`.
