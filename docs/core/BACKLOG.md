@@ -17,6 +17,12 @@ Last updated: 2026-06-21
 - Document or automate staging Supabase setup: migrations, storage bucket, admin allowlist, beta payment allowlist, and Auth email OTP template.
 - Add a pre-smoke checklist that catches magic-link email template configuration before purchase testing.
 
+## P1 - Deep-link fallback UX
+
+- Replace the current desktop/browser dead end for `droptune://album/{albumId}` with a clear fallback flow.
+- Detect when the app does not open after pressing Open in Droptune and show next actions: install app, open TestFlight/App Store link, copy deep link, or open My Albums on Web.
+- Keep the canonical deep link format `droptune://album/{albumId}` unchanged.
+
 ## P2 - Web entrypoint cleanup
 
 - Replace the default Next.js `/` page with a real Droptune entrypoint or redirect.
