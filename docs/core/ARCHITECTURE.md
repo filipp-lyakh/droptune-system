@@ -57,7 +57,7 @@ The following sections describe the **mobile app** unless noted otherwise.
 - **TrackPage** renders arts + MiniPlayer; it does not start playback by itself.
 
 ## Supabase integration principles
-- Auth: email OTP
+- Auth: email OTP code entry. Web must verify the emailed code in-app with Supabase `verifyOtp`; passwordless magic-link login is not the target flow for purchase handoff.
 - RLS must prevent reading purchases of other users
 - Storage: public URLs currently used for audio
 
@@ -73,15 +73,16 @@ The following sections describe the **mobile app** unless noted otherwise.
 - Users reach a public album page at `/album/[id]`.
 - The album page is viewable without authentication.
 - If unauthenticated user taps Buy, they are redirected to `/login?redirect=/album/{albumId}?buy=1`.
-- After login callback, user returns to `/album/{albumId}?buy=1`.
+- After email OTP code verification, user returns to `/album/{albumId}?buy=1`.
 - The album page sees `buy=1` + authenticated user and continues purchase automatically.
 
 ### Web payment flow
 1. **createPaymentOrder(albumId)** creates `payment_orders` row with `status = created`.
 2. **initTbankPayment(orderId)** creates provider session, sets `payment_pending`, returns payment URL.
 3. Lifecycle: `created → payment_pending → paid → fulfilled` (alt terminals: `failed`, `canceled`).
-4. Mock success page calls **completeMockPayment(orderId)**, marks paid, then calls **fulfill_payment_order** RPC.
-5. **fulfill_payment_order** is backend-only.
+4. Production provider callback/webhook validates the provider notification, marks the order paid, then calls **fulfill_payment_order** RPC from trusted server/service-role code.
+5. Mock success page is dev/staging-only (`TBANK_MOCK=true`) and must not be the production-only fulfillment path.
+6. **fulfill_payment_order** is backend-only.
 
 ### Ownership behavior on web
 - If user already owns album (`copy_ownership` exists), page shows owned state and Buy is replaced by **Open in Droptune**.
