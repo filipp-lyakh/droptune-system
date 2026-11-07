@@ -2,8 +2,14 @@
 
 Status: working plan  
 Owners: Product + Engineering  
-Last updated: 2026-08-05  
+Last updated: 2026-11-08
 Consumers: droptune-web, droptune_mobile
+
+## Current mobile delivery update — 2026-11-08
+
+First staging iOS delivery is complete: TestFlight 1.0.0 (4) was uploaded, processed, made available internally and installed. DNS is closed on owner confirmation. The new unified demo smoke on iPhone 16 Pro / owner-reported iOS 26.6.2 is blocked by SMTP authentication failure (HTTP 500; fresh Auth log: 535 Invalid login or password), not the former email quota error. No public App Store readiness, new upload or production readiness is implied.
+
+Current mobile results, external owner actions, submission preparation and production transition: [iOS demo readiness](../platform/mobile/IOS_DEMO_READINESS.md). This update supersedes older mobile distribution/signing/warm-link blocker statements below; dated cross-platform snapshots remain historical. Backend/payment status and contracts are unchanged.
 
 ## Goal
 Bring Droptune to a production-ready state for public web launch and mobile store release:

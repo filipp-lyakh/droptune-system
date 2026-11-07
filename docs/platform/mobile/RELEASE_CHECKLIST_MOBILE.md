@@ -1,11 +1,17 @@
 # Mobile Release Checklist
 
-Status: working checklist; closed beta mobile smoke passed  
+Status: first TestFlight delivered; unified demo smoke blocked at OTP
 Owners: Mobile Engineering  
 Last updated: 2026-11-08
 Depends on: `docs/core/DEEP_LINKS.md`, `docs/core/BUSINESS_RULES.md`
 
 Distribution audit and commands: `DISTRIBUTION_RELEASE_AUDIT.md`.
+
+## Current iOS demo status — 2026-11-08
+
+See `IOS_DEMO_READINESS.md` for the current single-build smoke and App Store preparation. Owner reports build 4 on iPhone 16 Pro / iOS 26.6.2; the new OTP attempt fails with HTTP 500. Demo verification is pending, despite completed October delivery. DNS is closed on owner confirmation. No new build, App Review or publication. Lock-screen controls, new mail provider and generic input/auth error polish remain post-v1.
+
+The dated evidence below is historical. It is superseded by the current summary for email delivery, catalog accessibility, verification coverage and remaining work; it is preserved rather than rewritten as a fresh check.
 
 <!-- testflight-staging-2026-10-03:start -->
 ## Verified TestFlight work — 2026-10-03
@@ -44,7 +50,11 @@ FINAL DELIVERY: staging 1.0.0 (4) locally built, uploaded, processed by Apple, a
 - DNS INCIDENT RESOLVED — 2026-11-08: the owner confirmed the later Failed host lookup login error was resolved by starting the staging Supabase project; the project had not been running. Closed on owner confirmation, without a new independent agent check. No code fix or new binary was needed. This does not change the separate email quota limitation.
 <!-- testflight-staging-2026-10-03:end -->
 
-## Build configuration
+## Historical checklist — August/October baseline
+
+The sections below preserve the earlier checklist, including superseded unconfirmed statuses. The current summary above governs release decisions.
+
+### Build configuration
 
 - Final Android application id is set. Status: complete; owner-approved value is `art.droptune.app`.
 - Android release signing is configured. Status: complete locally; dedicated owner-approved upload key created outside version control, password stored in macOS Keychain, secure backup completed, and signed release AAB validation passed.

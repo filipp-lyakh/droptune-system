@@ -1,9 +1,15 @@
 # Mobile Distribution Release Audit
 
-Status: final identifiers set; store credentials required  
+Status: first TestFlight delivered; unified demo smoke blocked; App Store preparation draft
 Owners: Product + Mobile Engineering  
 Last updated: 2026-11-08
 Depends on: `../../core/RELEASE_READINESS_PLAN.md`, `RELEASE_CHECKLIST_MOBILE.md`
+
+## Current iOS demo status — 2026-11-08
+
+See `IOS_DEMO_READINESS.md` for the current single-build smoke and App Store preparation. Owner reports build 4 on iPhone 16 Pro / iOS 26.6.2; the new OTP attempt fails with HTTP 500. Demo verification is pending, despite completed October delivery. DNS is closed on owner confirmation. No new build, App Review or publication. Lock-screen controls, new mail provider and generic input/auth error polish remain post-v1.
+
+The dated evidence below is historical. It is superseded by the current summary for email delivery, catalog accessibility, verification coverage and remaining work; it is preserved rather than rewritten as a fresh check.
 
 <!-- testflight-staging-2026-10-03:start -->
 ## Verified TestFlight work — 2026-10-03
@@ -50,7 +56,7 @@ Use a production-like build only after production Supabase readiness is confirme
 
 The mobile app remains consumption-only: it shows owned albums and plays them. It must not contain checkout, payment initiation, or ownership-issuing calls.
 
-## iOS audit
+## Historical iOS audit — 2026-08-06
 
 | Area | Current state | Distribution status |
 | --- | --- | --- |
@@ -65,7 +71,7 @@ The mobile app remains consumption-only: it shows owned albums and plays them. I
 | Deep link | `droptune` URL scheme registered; Dart parser accepts `droptune://album/{albumId}` | Registration is ready. Re-test cold start, warm start, logged-out, owned, and unowned cases on a physical TestFlight device. |
 | Toolchain | Xcode 26.2 is installed | Meets the current App Store Connect requirement to build iOS apps with Xcode 16 or later. |
 
-### App Store Connect setup still required
+### Historical App Store Connect setup list — superseded by October delivery
 
 - Confirm or create an explicit App ID for the final bundle identifier.
 - Create an App Store Connect app with the same bundle identifier and SKU.
@@ -97,7 +103,9 @@ The app currently has an `Открыть каталог` action that launches `W
 
 For the first internal builds, keep the destination on the staging informational/beta surface and do not expose an active payment path from the app.
 
-## Build commands
+## Historical build commands
+
+Do not reuse iOS build number 1 below: it has already been uploaded. Choose a higher number after checking App Store Connect. For current demo/submission steps use `IOS_DEMO_READINESS.md`.
 
 Run from the mobile repository root. Replace key placeholders locally; never commit keys or resolved secrets.
 

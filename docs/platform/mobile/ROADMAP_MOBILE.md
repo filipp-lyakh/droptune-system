@@ -5,6 +5,12 @@ Owners: Mobile Engineering
 Last updated: 2026-11-08
 Depends on: `docs/core/RELEASE_READINESS_PLAN.md`
 
+## Current iOS demo status — 2026-11-08
+
+See `IOS_DEMO_READINESS.md` for the current single-build smoke and App Store preparation. Owner reports build 4 on iPhone 16 Pro / iOS 26.6.2; the new OTP attempt fails with HTTP 500. Demo verification is pending, despite completed October delivery. DNS is closed on owner confirmation. No new build, App Review or publication. Lock-screen controls, new mail provider and generic input/auth error polish remain post-v1.
+
+The dated evidence below is historical. It is superseded by the current summary for email delivery, catalog accessibility, verification coverage and remaining work; it is preserved rather than rewritten as a fresh check.
+
 <!-- testflight-staging-2026-10-03:start -->
 ## Verified TestFlight work — 2026-10-03
 
@@ -42,7 +48,9 @@ FINAL DELIVERY: staging 1.0.0 (4) locally built, uploaded, processed by Apple, a
 - DNS INCIDENT RESOLVED — 2026-11-08: the owner confirmed the later Failed host lookup login error was resolved by starting the staging Supabase project; the project had not been running. Closed on owner confirmation, without a new independent agent check. No code fix or new binary was needed. This does not change the separate email quota limitation.
 <!-- testflight-staging-2026-10-03:end -->
 
-## Current audit result
+## Historical audit result — before October TestFlight delivery
+
+Remaining sections preserve the earlier audit/priorities. Current blockers and explicitly deferred post-v1 scope are in `IOS_DEMO_READINESS.md`.
 
 Mobile audit found no payment initiation and no direct ownership-issuing RPC calls in the app.
 
