@@ -41,6 +41,7 @@ FINAL DELIVERY: staging 1.0.0 (4) locally built, uploaded, processed by Apple, a
 - OWNER DECISION: wait for email quota refill without changing SMTP or limits. One-time follow-up scheduled for 2026-10-03 21:20 MSK to ask for one OTP request, re-login and playback on build 4. This is a retry time, not a guaranteed reset. The one-time follow-up ran at 21:34 MSK; owner subsequently confirmed all requested steps work. Re-login is passed; no further reminder created.
 - RELEASE SCOPE DECISION — 2026-11-08: the owner deferred native lock-screen Now Playing controls, email provider configuration, and user-facing input/auth error messages to the post-v1 backlog. They are not requirements for the first version. Existing mail quotas and raw error messages remain accepted limitations; no mail settings or authentication protections changed.
 - PRE-COMMIT VALIDATION — 2026-11-08: Flutter analyze passed; all 8 Flutter tests passed; Info.plist and Xcode project passed plutil lint; Podfile passed Ruby syntax validation. No new archive or upload was performed during this check.
+- DNS INCIDENT RESOLVED — 2026-11-08: the owner confirmed the later Failed host lookup login error was resolved by starting the staging Supabase project; the project had not been running. Closed on owner confirmation, without a new independent agent check. No code fix or new binary was needed. This does not change the separate email quota limitation.
 <!-- testflight-staging-2026-10-03:end -->
 
 ## Build configuration
