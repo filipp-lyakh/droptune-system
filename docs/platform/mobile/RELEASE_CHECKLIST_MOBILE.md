@@ -1,6 +1,6 @@
 # Mobile Release Checklist
 
-Status: first TestFlight delivered; unified demo smoke blocked at OTP
+Status: first TestFlight delivered; unified build 4 smoke passed by owner; in-app demo ready with limits
 Owners: Mobile Engineering  
 Last updated: 2026-11-08
 Depends on: `docs/core/DEEP_LINKS.md`, `docs/core/BUSINESS_RULES.md`
@@ -9,7 +9,7 @@ Distribution audit and commands: `DISTRIBUTION_RELEASE_AUDIT.md`.
 
 ## Current iOS demo status — 2026-11-08
 
-See `IOS_DEMO_READINESS.md` for the current single-build smoke and App Store preparation. Owner reports build 4 on iPhone 16 Pro / iOS 26.6.2; the new OTP attempt fails with HTTP 500. Demo verification is pending, despite completed October delivery. DNS is closed on owner confirmation. No new build, App Review or publication. Lock-screen controls, new mail provider and generic input/auth error polish remain post-v1.
+See `IOS_DEMO_READINESS.md` for the completed unified owner-operated smoke: staging 1.0.0 (4), iPhone 16 Pro / owner-reported iOS 26.6.2. OTP/library, multitrack controls/natural completion, cold/warm owned/unowned links, background/lock/return, network recovery via Retry, logout/re-login/manual Play and primary screens passed on November 8. Internal in-app demonstration is ready with documented limits. The SMTP blocker was resolved for this test by the owner-requested built-in mail fallback (2 emails/hour; 8-digit OTP); DNS remains closed. Catalog landing/navigation, App Store screenshots and submission gates remain separate outstanding work. No new build, App Review or publication. Lock-screen controls, a new mail provider and generic input/auth error polish remain post-v1.
 
 The dated evidence below is historical. It is superseded by the current summary for email delivery, catalog accessibility, verification coverage and remaining work; it is preserved rather than rewritten as a fresh check.
 
