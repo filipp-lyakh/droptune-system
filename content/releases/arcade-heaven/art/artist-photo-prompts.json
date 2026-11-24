@@ -1,0 +1,82 @@
+[
+  {
+    "track_number": 1,
+    "kind": "artist_photo",
+    "tool": "built-in image_gen",
+    "references": [
+      "existing/02_07.webp",
+      "existing/03_07.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Create one NEW fictional-artist documentary photo, vertical 9:16, for Kid Comet — Arcade Heaven. The two attached existing fictional artist images are identity and photographic-style references: preserve the SAME recognizable face, pale skin, dark curly hair, backwards black baseball cap, loose black hoodie, youthful slim build. Match their cheap disposable-camera/direct-flash look: imperfect candid framing, muted colors, heavy natural fine grain, hard flash falloff, real skin texture, no airbrushing, no glossy cinematic fantasy. No headphones, no brand logos added, no illustration, no borders, no captions, no watermark. Track 1 'Insert Coin to Dream': caught arriving at an arcade doorway at dusk, medium three-quarter shot, artist glancing down while searching the pocket of his oversized hoodie for a coin, a small ordinary token visible in his other open hand. Candid quiet anticipation. A dark arcade cabinet and real star-patterned carpet behind; cool outside light mixed with flash. Hands anatomically correct and natural. One ordinary snapshot rather than a promotional pose."
+  },
+  {
+    "track_number": 4,
+    "kind": "artist_photo",
+    "tool": "built-in image_gen",
+    "references": [
+      "existing/02_07.webp",
+      "existing/03_07.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Create one NEW fictional-artist documentary photo, vertical 9:16, for Kid Comet — Arcade Heaven. The two attached existing fictional artist images are identity and photographic-style references: preserve the SAME recognizable face, pale skin, dark curly hair, backwards black baseball cap, loose black hoodie, youthful slim build. Match their cheap disposable-camera/direct-flash look: imperfect candid framing, muted colors, heavy natural fine grain, hard flash falloff, real skin texture, no airbrushing, no glossy cinematic fantasy. No headphones, no brand logos added, no illustration, no borders, no captions, no watermark. Track 4 'Plastic Angel': candid medium-close snapshot at an arcade prize machine, artist holding a tiny translucent pale-blue angel-shaped prize by its clear keyring at chest height, looking at it with a small unguarded amused smile. Same black hoodie and backwards cap. The capsule halves sit on the counter. Flash lights his face and hand against a dim untidy arcade background, real skin texture, no ethereal fantasy glow, no beauty lighting. Off-center slightly cropped composition like a friend took it."
+  },
+  {
+    "track_number": 5,
+    "kind": "artist_photo",
+    "tool": "built-in image_gen",
+    "references": [
+      "existing/02_07.webp",
+      "existing/03_07.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Create one NEW fictional-artist documentary photo, vertical 9:16, for Kid Comet — Arcade Heaven. The two attached existing fictional artist images are identity and photographic-style references: preserve the SAME recognizable face, pale skin, dark curly hair, backwards black baseball cap, loose black hoodie, youthful slim build. Match their cheap disposable-camera/direct-flash look: imperfect candid framing, muted colors, heavy natural fine grain, hard flash falloff, real skin texture, no airbrushing, no glossy cinematic fantasy. No headphones, no brand logos added, no illustration, no borders, no captions, no watermark. Track 5 'Don't Pause Me Now': spontaneous mid-performance studio snapshot, medium full-body view, the same artist standing in a small cramped recording booth, one hand holding an ordinary wired microphone at chest level, caught just turning toward a friend behind camera with a quick grin, subtle natural motion blur at sleeve edge but face sharp from flash. Loose black hoodie, backwards cap, baggy dark jeans. An unbranded small keyboard on a stand and cables in background, no headphones. Crop slightly awkward like a disposable-camera backstage photo, grounded real room, no concert glamour, no neon colors."
+  },
+  {
+    "track_number": 6,
+    "kind": "artist_photo",
+    "tool": "built-in image_gen",
+    "references": [
+      "existing/02_07.webp",
+      "existing/03_07.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Create one NEW fictional-artist documentary photo, vertical 9:16, for Kid Comet — Arcade Heaven. The two attached existing fictional artist images are identity and photographic-style references: preserve the SAME recognizable face, pale skin, dark curly hair, backwards black baseball cap, loose black hoodie, youthful slim build. Match their cheap disposable-camera/direct-flash look: imperfect candid framing, muted colors, heavy natural fine grain, hard flash falloff, real skin texture, no airbrushing, no glossy cinematic fantasy. No headphones, no brand logos added, no illustration, no borders, no captions, no watermark. Track 6 'Cherry Bomb Bonus Stage': casual slightly low angle waist-up snapshot of the same artist sitting on a low stool by an arcade prize counter, holding a little transparent capsule with a red cherry-shaped keyring prize inside, laughing down toward it rather than looking at camera. A short ordinary strip of redemption tickets lies across one knee. Backwards black cap, black hoodie, loose jeans. Harsh on-camera flash, dim real arcade behind, warm stale interior light, candid joy, not a fashion editorial. Keep face and hands believable and recognizably identical to references; real modest-size prize, no giant cherry, no fantasy objects."
+  },
+  {
+    "track_number": 7,
+    "kind": "artist_photo",
+    "tool": "built-in image_gen",
+    "references": [
+      "existing/02_07.webp",
+      "existing/03_07.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Create one NEW fictional-artist documentary photo, vertical 9:16, for Kid Comet — Arcade Heaven. The two attached existing fictional artist images are identity and photographic-style references: preserve the SAME recognizable face, pale skin, dark curly hair, backwards black baseball cap, loose black hoodie, youthful slim build. Match their cheap disposable-camera/direct-flash look: imperfect candid framing, muted colors, heavy natural fine grain, hard flash falloff, real skin texture, no airbrushing, no glossy cinematic fantasy. No headphones, no brand logos added, no illustration, no borders, no captions, no watermark. Track 7 'Final Boss Feelings': quiet candid side-profile snapshot of the same artist sitting on the floor of a cramped home recording room, back against a dark wall, one knee raised, an open notebook of handwritten but not legible lyrics resting on it. He looks away toward the floor, thoughtful and tired after a difficult vocal take, not theatrically sad. The edge of an unbranded sampler and loose cables enter foreground. Black hoodie and backwards black cap; hands relaxed and anatomically natural. Direct on-camera flash, off-center portrait, muted blue-brown room tones, deep shadows and real grain, ordinary intimate moment. No readable text, no fantasy arcade visual effects."
+  },
+  {
+    "track_number": 8,
+    "kind": "artist_photo",
+    "tool": "built-in image_gen",
+    "references": [
+      "existing/02_07.webp",
+      "existing/03_07.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Create one NEW fictional-artist documentary photo, vertical 9:16, for Kid Comet — Arcade Heaven. The two attached existing fictional artist images are identity and photographic-style references: preserve the SAME recognizable face, pale skin, dark curly hair, backwards black baseball cap, loose black hoodie, youthful slim build. Match their cheap disposable-camera/direct-flash look: imperfect candid framing, muted colors, heavy natural fine grain, hard flash falloff, real skin texture, no airbrushing, no glossy cinematic fantasy. No headphones, no brand logos added, no illustration, no borders, no captions, no watermark. Track 8 'Star Sticker Funeral': natural close-medium candid snapshot of the same artist at his bedroom desk by a dark window, carefully placing a peeled small holographic star sticker into an open old tin with one hand, head bowed, quiet concentration, not posing. A translucent blank cartridge, lyric notebook and cheap desk lamp are on the desk. Backwards black cap and oversized black hoodie, same face and curls. Slightly high camera angle like a friend leaning over; hard disposable-camera flash catches the face, sticker and worn desk, the room falls off into shadow. Nostalgic understated human moment, no readable words, no funeral imagery, no fantasy glow."
+  },
+  {
+    "track_number": 9,
+    "kind": "artist_photo",
+    "tool": "built-in image_gen",
+    "references": [
+      "existing/02_07.webp",
+      "existing/03_07.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Create one NEW fictional-artist documentary photo, vertical 9:16, for Kid Comet — Arcade Heaven. The two attached existing fictional artist images are identity and photographic-style references: preserve the SAME recognizable face, pale skin, dark curly hair, backwards black baseball cap, loose black hoodie, youthful slim build. Match their cheap disposable-camera/direct-flash look: imperfect candid framing, muted colors, heavy natural fine grain, hard flash falloff, real skin texture, no airbrushing, no glossy cinematic fantasy. No headphones, no brand logos added, no illustration, no borders, no captions, no watermark. Track 9 'Continue?': candid medium-wide snapshot of the same artist slumped comfortably on a metal arcade stool after a long night, one elbow resting on the idle control deck of a dark navy generic arcade cabinet, his cheek supported by the knuckles of that relaxed hand, looking sideways toward an off-camera friend as though deciding on one more game. Backwards black cap and loose black hoodie, recognizable same face. Star-patterned carpet, a paper cup on cabinet edge, tiny plain token on deck, dim empty aisle behind. Shot with cheap camera flash, imperfect framing, real tired but amused expression, natural anatomy, no readable screen text, no staged drama, no fantasy effects."
+  },
+  {
+    "track_number": 11,
+    "kind": "artist_photo",
+    "tool": "built-in image_gen",
+    "references": [
+      "existing/02_07.webp",
+      "existing/03_07.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Create one NEW fictional-artist documentary photo, vertical 9:16, for Kid Comet — Arcade Heaven. The two attached existing fictional artist images are identity and photographic-style references: preserve the SAME recognizable face, pale skin, dark curly hair, backwards black baseball cap, loose black hoodie, youthful slim build. Match their cheap disposable-camera/direct-flash look: imperfect candid framing, muted colors, heavy natural fine grain, hard flash falloff, real skin texture, no airbrushing, no glossy cinematic fantasy. No headphones, no brand logos added, no illustration, no borders, no captions, no watermark. Track 11 'Sunrise After Game Over': unposed three-quarter-body snapshot of the same artist outside the arcade's ordinary glass entrance at early sunrise, leaning lightly on the wall with a paper takeaway cup, looking off to one side with a tired small contented smile. Backwards black cap, loose black hoodie and baggy jeans, face clearly recognizable. Soft cool morning sky and low warm sunlight on wet parking lot in background, small fill flash from cheap disposable camera, subdued real colors and deep grain. Composition slightly tilted and casually cropped, human and understated rather than cinematic promo. No fantasy comet, no dramatic neon, no readable signs, no headphones. Match the reference artist exactly."
+  }
+]

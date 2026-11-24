@@ -1,0 +1,13 @@
+{
+  "project_ref": "rncutejdfmqkmxwzfxup",
+  "status": "passed",
+  "checks": [
+    "paid_and_null_prices_rejected",
+    "anon_and_authenticated_direct_rpc_denied",
+    "twelve_concurrent_requests_issue_one_copy",
+    "finite_inventory_and_idempotent_retry_after_sold_out",
+    "two_zero_amount_completed_primary_transactions"
+  ],
+  "fixtures_cleaned": true,
+  "completed_at": "2026-11-24T22:36:50.642Z"
+}

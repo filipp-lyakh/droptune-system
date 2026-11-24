@@ -2,7 +2,7 @@
 
 Status: source-of-truth  
 Owners: Product + Engineering  
-Last updated: 2026-06-06
+Last updated: 2026-11-25
 Consumers: droptune-web, droptune_mobile
 
 Schema baseline: `supabase/migrations/20260425210000_baseline.sql`
@@ -16,6 +16,10 @@ Current alignment migration: `supabase/migrations/20260504195200_align_data_mode
 - artist_name (text)
 - cover_image_url (text, nullable)
 - price (numeric, nullable)
+  - Explicit zero identifies a free limited edition; null is unavailable.
+  - Free issuance is backend-only through `claim_free_album_copy_for_user`
+    (ADR-005). It records existing `admin_claim` ownership
+    and a completed primary transaction with zero price and RUB currency.
 - supply_total (integer, nullable)
 - release_year (integer, nullable)
 - gallery_description (text, nullable)

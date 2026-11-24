@@ -1,0 +1,21 @@
+{
+  "album_id": "e213aa34-fb30-4b63-8734-4f1dc33349fa",
+  "draft_status": "published",
+  "last_error": null,
+  "published_album_id": "e213aa34-fb30-4b63-8734-4f1dc33349fa",
+  "title": "Arcade Heaven",
+  "artist_name": "Kid Comet",
+  "price": 0,
+  "supply_in_draft": 512,
+  "track_count": 11,
+  "art_count": 38,
+  "copy_count": 512,
+  "owned_copies": 1,
+  "serial_min": 1,
+  "serial_max": 512,
+  "mapping_verified": true,
+  "transaction_status_column": "absent_in_current_production_schema",
+  "free_transactions": 1,
+  "payment_orders": 0,
+  "web_claim_verified": true
+}

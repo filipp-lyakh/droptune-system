@@ -1,0 +1,516 @@
+{
+  "albums": [
+    {
+      "id": "4b0a24e2-6467-4b24-8eb6-f3777127e3c5",
+      "title": "TEST ALBUM NOT OWNED",
+      "description": "Не купленный альбом",
+      "cover_image_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/4b0a24e2-6467-4b24-8eb6-f3777127e3c5/geometry.jpg",
+      "artist_name": "Test Artist",
+      "price": 199,
+      "release_year": 2024,
+      "gallery_description": "This is a test album used for the unauthenticated and purchase flow.",
+      "video_embed_url": null,
+      "background_color": null
+    },
+    {
+      "id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "title": "Test Album",
+      "description": "Первый тестовый альбом",
+      "cover_image_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e33874fd-f7d3-4f11-a82d-e351668c1717/IMG_0795.JPG",
+      "artist_name": "Test Artist",
+      "price": null,
+      "release_year": 2024,
+      "gallery_description": "The In Rainbows artwork was designed by Radiohead longtime collaborator Stanley Donwood. Donwood worked in the studio while Radiohead worked on the album, allowing the artwork to convey the mood of the music. He displayed images in the studio and on the studio computer for the band to interact with and comment on. He also posted images daily on the Radiohead website, though none were used in the final artwork. Donwood experimented with photographic etching, putting prints into acid baths and throwing wax at paper, creating images influenced by NASA space photography. He originally planned to explore suburban life, but realised it did not fit the album, saying: \"The music took a different direction and became much more organic, sensual and sexual, so I started working with wax and syringes.\" He described the final artwork as \"very colourful ... Its a rainbow but it is very toxic, its more like the sort of one youd see in a puddle.\" Radiohead did not reveal the cover until the retail release. The limited edition includes a booklet containing additional artwork by Donwood.",
+      "video_embed_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "background_color": "#021B76"
+    },
+    {
+      "id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Arcade Heaven",
+      "description": null,
+      "cover_image_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/cover.png",
+      "artist_name": "Kid Comet",
+      "price": 1024,
+      "release_year": null,
+      "gallery_description": null,
+      "video_embed_url": null,
+      "background_color": "#041634"
+    },
+    {
+      "id": "9798906d-baeb-4a53-806f-b0e213c45dd4",
+      "title": "Тест оплаты",
+      "description": null,
+      "cover_image_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/9798906d-baeb-4a53-806f-b0e213c45dd4/cover.png",
+      "artist_name": "Тест",
+      "price": 300,
+      "release_year": null,
+      "gallery_description": null,
+      "video_embed_url": null,
+      "background_color": "#ffffff"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "085cf11a-e604-4ae9-b8c6-f3516a16f534",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Don’t Pause Me Now",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/5/audio.mp3",
+      "track_number": 5,
+      "duration_seconds": 262
+    },
+    {
+      "id": "4be5a566-b1b7-433e-83f3-69dcb63db1ec",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Bubblegum Meteor",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/audio.mp3",
+      "track_number": 2,
+      "duration_seconds": 316
+    },
+    {
+      "id": "561f0419-465d-4f2b-b62a-af2f8c863190",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Plastic Angel",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/4/audio.mp3",
+      "track_number": 4,
+      "duration_seconds": 212
+    },
+    {
+      "id": "b1e2cf9c-77c2-4e56-981c-44db9a64da87",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "High Score Summer",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/audio.mp3",
+      "track_number": 3,
+      "duration_seconds": 200
+    },
+    {
+      "id": "b49c2c39-1b10-4300-a348-c3f7ecf5829f",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Insert Coin to Dream",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/1/audio.mp3",
+      "track_number": 1,
+      "duration_seconds": 300
+    },
+    {
+      "id": "5032366a-d230-4a2e-9f29-e1370db7c795",
+      "album_id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "title": "Усталость",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/tracks/5032366a-d230-4a2e-9f29-e1370db7c795/tired.mp3",
+      "track_number": 1,
+      "duration_seconds": 260
+    },
+    {
+      "id": "f63ff876-895a-4f0c-9019-416cb65c5c2f",
+      "album_id": "4b0a24e2-6467-4b24-8eb6-f3777127e3c5",
+      "title": "Test Track 1",
+      "audio_url": null,
+      "track_number": 1,
+      "duration_seconds": 260
+    },
+    {
+      "id": "8938e809-b3bf-4a07-9e57-c5f2d643ecb0",
+      "album_id": "4b0a24e2-6467-4b24-8eb6-f3777127e3c5",
+      "title": "Test Track 2",
+      "audio_url": null,
+      "track_number": 2,
+      "duration_seconds": 260
+    },
+    {
+      "id": "4ce0601c-e6ec-4221-bd9b-668ebce8df6c",
+      "album_id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "title": "Лодка лимитированная версия 2016 до изменений",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/tracks/4ce0601c-e6ec-4221-bd9b-668ebce8df6c/boat_02.mp3",
+      "track_number": 2,
+      "duration_seconds": 401
+    },
+    {
+      "id": "782b1a84-0037-442b-9c06-f067e0077cce",
+      "album_id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "title": "Море горы",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/tracks/782b1a84-0037-442b-9c06-f067e0077cce/sea-n-mountains_02_.mp3",
+      "track_number": 3,
+      "duration_seconds": 72
+    },
+    {
+      "id": "351252bf-530a-4bfb-bc54-8d9feae5d3ed",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Cherry Bomb Bonus Stage",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/6/audio.mp3",
+      "track_number": 6,
+      "duration_seconds": 280
+    },
+    {
+      "id": "3781058a-b7ac-468a-9574-d3f776a703eb",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Final Boss Feelings",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/7/audio.mp3",
+      "track_number": 7,
+      "duration_seconds": 400
+    },
+    {
+      "id": "3f98da62-cfe7-404a-93c7-2cd03c0d7df6",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Arcade Heaven",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/audio.mp3",
+      "track_number": 10,
+      "duration_seconds": 395
+    },
+    {
+      "id": "48036b5c-7c4c-4cd4-9b40-b6ad7640ca4b",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Continue?",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/9/audio.mp3",
+      "track_number": 9,
+      "duration_seconds": 412
+    },
+    {
+      "id": "7d1bea50-e503-4602-9123-d2f83ec18c5a",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Sunrise After Game Over",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/11/audio.mp3",
+      "track_number": 11,
+      "duration_seconds": 312
+    },
+    {
+      "id": "be965208-0feb-4280-a746-63ad37475468",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "title": "Star Sticker Funeral",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/8/audio.mp3",
+      "track_number": 8,
+      "duration_seconds": 512
+    },
+    {
+      "id": "d9bb2bfe-ea4e-4663-8758-335ee270b9a4",
+      "album_id": "9798906d-baeb-4a53-806f-b0e213c45dd4",
+      "title": "123",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/9798906d-baeb-4a53-806f-b0e213c45dd4/tracks/1/audio.mp3",
+      "track_number": 1,
+      "duration_seconds": null
+    }
+  ],
+  "art_containers": [
+    {
+      "id": "2e72de52-7eaf-4948-8ca1-eaf34035d7c5",
+      "album_id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "track_id": "5032366a-d230-4a2e-9f29-e1370db7c795",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/tracks/5032366a-d230-4a2e-9f29-e1370db7c795/IMG_6943.jpeg",
+      "meta": null,
+      "order": 1
+    },
+    {
+      "id": "912970bc-f5ea-4833-864e-b6bb415719ee",
+      "album_id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "track_id": "5032366a-d230-4a2e-9f29-e1370db7c795",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/tracks/5032366a-d230-4a2e-9f29-e1370db7c795/IMG_6944.jpeg",
+      "meta": null,
+      "order": 2
+    },
+    {
+      "id": "fb36423e-f41e-4c53-9ee8-cf785632a111",
+      "album_id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "track_id": "5032366a-d230-4a2e-9f29-e1370db7c795",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/tracks/5032366a-d230-4a2e-9f29-e1370db7c795/IMG_6947.jpeg",
+      "meta": null,
+      "order": 3
+    },
+    {
+      "id": "2d00195c-9536-4aa3-a14b-53eb1d5c6974",
+      "album_id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "track_id": "4ce0601c-e6ec-4221-bd9b-668ebce8df6c",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/tracks/4ce0601c-e6ec-4221-bd9b-668ebce8df6c/Rectangle%201.png",
+      "meta": null,
+      "order": null
+    },
+    {
+      "id": "052bacaa-d592-4c94-ab20-d2a36d36c39a",
+      "album_id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "track_id": "4ce0601c-e6ec-4221-bd9b-668ebce8df6c",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/tracks/4ce0601c-e6ec-4221-bd9b-668ebce8df6c/Rectangle%201-1.png",
+      "meta": null,
+      "order": null
+    },
+    {
+      "id": "0bd59af2-739f-477c-925d-bf1e0dfb942b",
+      "album_id": "e33874fd-f7d3-4f11-a82d-e351668c1717",
+      "track_id": "782b1a84-0037-442b-9c06-f067e0077cce",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/tracks/782b1a84-0037-442b-9c06-f067e0077cce/Rectangle%201-2.png",
+      "meta": null,
+      "order": null
+    },
+    {
+      "id": "8112f9ff-627d-40a7-9381-5cebc1cf899d",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "4be5a566-b1b7-433e-83f3-69dcb63db1ec",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "89888098-aeef-46ee-82a6-5f5907924ba1",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "4be5a566-b1b7-433e-83f3-69dcb63db1ec",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/2.gif",
+      "meta": {},
+      "order": 2
+    },
+    {
+      "id": "6c2b6fc6-da29-4705-be93-ea6f0da936d4",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "4be5a566-b1b7-433e-83f3-69dcb63db1ec",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/3.gif",
+      "meta": {},
+      "order": 3
+    },
+    {
+      "id": "2fde1f34-b034-4e6f-9ad9-86404f2f3484",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "4be5a566-b1b7-433e-83f3-69dcb63db1ec",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/4.gif",
+      "meta": {},
+      "order": 4
+    },
+    {
+      "id": "af70c8de-a48f-4f5a-ad8c-b060010f5f12",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "4be5a566-b1b7-433e-83f3-69dcb63db1ec",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/5.gif",
+      "meta": {},
+      "order": 5
+    },
+    {
+      "id": "e44fac79-e30b-4011-be86-018ba09a9e77",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "4be5a566-b1b7-433e-83f3-69dcb63db1ec",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/6.gif",
+      "meta": {},
+      "order": 6
+    },
+    {
+      "id": "752b34dc-edd0-4990-afe8-0e0629c8a089",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "4be5a566-b1b7-433e-83f3-69dcb63db1ec",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/7.gif",
+      "meta": {},
+      "order": 7
+    },
+    {
+      "id": "def10af2-4806-4ba7-aa39-b09f2c4e095d",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "b1e2cf9c-77c2-4e56-981c-44db9a64da87",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "deeb82f2-634b-405c-901a-b04df020888b",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "b1e2cf9c-77c2-4e56-981c-44db9a64da87",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/2.gif",
+      "meta": {},
+      "order": 2
+    },
+    {
+      "id": "bebbc034-fef5-448f-9716-86e792df3bd6",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "b1e2cf9c-77c2-4e56-981c-44db9a64da87",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/3.gif",
+      "meta": {},
+      "order": 3
+    },
+    {
+      "id": "94ec949f-106d-4134-adde-e3159a9544e1",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "b1e2cf9c-77c2-4e56-981c-44db9a64da87",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/4.gif",
+      "meta": {},
+      "order": 4
+    },
+    {
+      "id": "25eb38ef-8baf-4d18-93ac-40b63e662da4",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "b1e2cf9c-77c2-4e56-981c-44db9a64da87",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/5.gif",
+      "meta": {},
+      "order": 5
+    },
+    {
+      "id": "953d4e49-76e3-43eb-ba29-e84d9c621453",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "b1e2cf9c-77c2-4e56-981c-44db9a64da87",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/6.gif",
+      "meta": {},
+      "order": 6
+    },
+    {
+      "id": "f68e411e-6c41-415e-b49e-aff297c2f515",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "b1e2cf9c-77c2-4e56-981c-44db9a64da87",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/7.gif",
+      "meta": {},
+      "order": 7
+    },
+    {
+      "id": "d67e2055-9bdc-489d-be99-79c0fe7b5367",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "3f98da62-cfe7-404a-93c7-2cd03c0d7df6",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "c00be8bf-1cba-4d1b-bcfb-356cacff7f5e",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "3f98da62-cfe7-404a-93c7-2cd03c0d7df6",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/2.gif",
+      "meta": {},
+      "order": 2
+    },
+    {
+      "id": "476b0957-ea62-45f5-bf10-0acbf4f9e7be",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "3f98da62-cfe7-404a-93c7-2cd03c0d7df6",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/3.gif",
+      "meta": {},
+      "order": 3
+    },
+    {
+      "id": "2fc8c4b2-ec65-4acb-9ac2-2a5a397d323b",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "3f98da62-cfe7-404a-93c7-2cd03c0d7df6",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/4.gif",
+      "meta": {},
+      "order": 4
+    },
+    {
+      "id": "af186046-5e47-4b7d-8028-55a239fb87f6",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "3f98da62-cfe7-404a-93c7-2cd03c0d7df6",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/5.gif",
+      "meta": {},
+      "order": 5
+    },
+    {
+      "id": "f5b72afd-c1d4-4299-87a7-2e1fd77151fa",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "3f98da62-cfe7-404a-93c7-2cd03c0d7df6",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/6.gif",
+      "meta": {},
+      "order": 6
+    },
+    {
+      "id": "9c5328e7-7857-4171-b638-45da27b392ae",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "3f98da62-cfe7-404a-93c7-2cd03c0d7df6",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/7.gif",
+      "meta": {},
+      "order": 7
+    },
+    {
+      "id": "dc068233-d042-4188-9793-183157b8e8d4",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "b49c2c39-1b10-4300-a348-c3f7ecf5829f",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/1/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "f8ee1293-29dc-44e3-a021-42f4cbbb9277",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "561f0419-465d-4f2b-b62a-af2f8c863190",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/4/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "74a7bfb2-cf12-40e4-b1f1-4387deb84ab7",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "085cf11a-e604-4ae9-b8c6-f3516a16f534",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/5/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "949bcbde-6b3f-4707-a8f8-0a027d0b20d0",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "351252bf-530a-4bfb-bc54-8d9feae5d3ed",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/6/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "91026c31-e312-4336-88f5-b5131184ca23",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "3781058a-b7ac-468a-9574-d3f776a703eb",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/7/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "92b07a78-c919-4627-8ee3-b11751e335b8",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "be965208-0feb-4280-a746-63ad37475468",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/8/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "973bb87c-0548-4d7b-8ed7-27ed189b7447",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "48036b5c-7c4c-4cd4-9b40-b6ad7640ca4b",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/9/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "9b666617-6744-41f4-bf5e-f623e4860740",
+      "album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+      "track_id": "7d1bea50-e503-4602-9123-d2f83ec18c5a",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/11/art/1.gif",
+      "meta": {},
+      "order": 1
+    },
+    {
+      "id": "4c52c3cc-a832-4038-ba66-c44b5472b8e7",
+      "album_id": "9798906d-baeb-4a53-806f-b0e213c45dd4",
+      "track_id": "d9bb2bfe-ea4e-4663-8758-335ee270b9a4",
+      "type": "image",
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/9798906d-baeb-4a53-806f-b0e213c45dd4/tracks/1/art/1.gif",
+      "meta": {},
+      "order": 1
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "status": "all_remaining_tracks_selected_and_wav_downloaded",
+  "date": "2026-11-25",
+  "download_policy": "Do not download these seven tracks until user selects versions",
+  "voice_profile_url": "https://suno.com/voice/5e0b5c88-fb6c-4804-a285-ec2606c66bf5",
+  "songs": [
+    {
+      "track_number": 4,
+      "title": "Plastic Angel",
+      "kind": "vocal",
+      "bpm": 87,
+      "meter": "6/8",
+      "harmony": "Ebmaj7–Gm7–Abmaj7–Fm9–Bb13",
+      "style": "Intimate electronic indie ballad, gently rolling 6/8, dotted-quarter pulse about 87 BPM, NOT straight 4/4. Keep the selected Kid Comet voice timbre, but use ONE natural mid-low lead, close and dry, conversational. NO octave doubling, pitch-shifted shadow voice, parallel-octave backing or stacked lead. Leave natural pauses. Cloudy electric piano, soft sub bass, brushed electronic clicks, tiny tremolo guitar and wavering analog pad. Warm tactile tape sound, fragile and unhurried. Harmonic guide: Ebmaj7–Gm7–Abmaj7, then Fm9–Bb13 turnaround; changing inversions, let phrases breathe over barlines. Solo lead throughout, no backing vocals even in chorus. Short instrumental coda, tender resolved ending. No pop power chorus, no EDM drop.",
+      "lyrics": "[Verse 1]\nYou gave me an angel\nFrom a machine by the door\nIt cost you three quarters\nAnd a trip back for more\nOne wing was bent backwards\nYou said that was fine\nNothing that stays with us\nComes out right every time\n\n[Refrain]\nPlastic angel\nOn a piece of string\nYou don't have to save me\nYou don't have to fix a thing\nStay beside the window\nLet the morning through\nSomething almost weightless\nStill can hold on to you\n\n[Verse 2]\nI moved to a new room\nAnd I lost half my stuff\nYour number stopped working\nWhen the winter came up\nBut the hook by the window\nHad a place you could hang\nA little blue shadow\nThat the passing cars made\n\n[Refrain]\nPlastic angel\nOn a piece of string\nYou don't have to save me\nYou don't have to fix a thing\nStay beside the window\nLet the morning through\nSomething almost weightless\nStill can hold on to you\n\n[Bridge]\nI don't think you're watching\nI don't think you know\nBut I leave the curtains open\nWhen I go\n\n[Final Refrain]\nPlastic angel\nOn a piece of string\nYou don't have to save me\nYou don't have to fix a thing\nStay beside the window\nLet the morning through\nSomething almost weightless\nStill can hold on to you\n\n[Instrumental Coda]",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/0333ced0-1423-4b90-bc40-136203c0e1ac"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/89acb68c-747a-4aef-ad36-9033148a8fb3"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "downloads_performed": 1,
+      "selected_variant": "A",
+      "selected_song_url": "https://suno.com/song/0333ced0-1423-4b90-bc40-136203c0e1ac",
+      "audio_file": "music/masters/04-plastic-angel.wav"
+    },
+    {
+      "track_number": 7,
+      "title": "Final Boss Feelings",
+      "kind": "vocal",
+      "bpm": 111,
+      "meter": "4/4_syncopated",
+      "harmony": "F#m9–Dmaj7–Bm7–C#7",
+      "style": "Dark electronic indie, syncopated broken beat, 111 BPM, 4/4 with offbeat accents, not four-on-the-floor. Keep the selected Kid Comet voice timbre, but use ONE natural mid-low lead, close and dry, conversational. NO octave doubling, pitch-shifted shadow voice, parallel-octave backing or stacked lead. Leave natural pauses. Tight dry drums, deep gritty synth-bass ostinato, clipped muted guitar, sparse analog stabs and short delay throws. More tension and forward motion than the relaxed songs. Harmonic guide F#m9–Dmaj7–Bm7–C#7; dominant turnaround with altered bass notes, stop recycling one pop loop. Verse strips to bass/drums, chorus gains percussion not vocal layers. Entirely single lead, brief spoken bridge, no octave doubles. Instrumental release and decisive ending. No EDM drop, no arena rock.",
+      "lyrics": "[Verse 1]\nI can talk my way through anything\nTill you ask me how I feel\nThen I'm checking all the exits\nThen I'm spinning on my heel\nThere's a joke I keep repeating\nThere's a drink I never finish\nYou can see me in the doorway\nTrying not to be in it\n\n[Chorus]\nI know the move\nI know the timing\nStill I lose\nWhen you get quiet\nNo big fight\nNo ceiling falling\nJust your eyes\nAnd all these final boss feelings\n\n[Verse 2]\nI've rehearsed it in the kitchen\nWith the water running hot\nHad a speech for every ending\nExcept the one where you don't stop\nYou don't ask for an explanation\nYou just pull another chair\nNow the thing that I've been fighting\nIsn't even standing there\n\n[Chorus]\nI know the move\nI know the timing\nStill I lose\nWhen you get quiet\nNo big fight\nNo ceiling falling\nJust your eyes\nAnd all these final boss feelings\n\n[Spoken Bridge]\nCould we leave the light on?\nCould I stay a while?\nI don't have an answer.\nI'm just tired of getting out.\n\n[Instrumental Break]\n\n[Final Chorus]\nI know the move\nI know the timing\nStill I lose\nWhen you get quiet\nNo big fight\nNo ceiling falling\nJust your eyes\nAnd all these final boss feelings\n\n[Outro]\nLeave the light on\nLet me stay a while",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/bca81843-91e1-4e03-9d0c-19fda3db8c3e"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/52cc9863-8346-4eef-a1a0-7f4b2afd9d40"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "downloads_performed": 1,
+      "selected_variant": "A",
+      "selected_song_url": "https://suno.com/song/bca81843-91e1-4e03-9d0c-19fda3db8c3e",
+      "audio_file": "music/masters/07-final-boss-feelings.wav"
+    },
+    {
+      "track_number": 8,
+      "title": "Star Sticker Funeral",
+      "kind": "vocal",
+      "bpm": 73,
+      "meter": "4/4_half_time",
+      "harmony": "Fmaj7–C/E–Dm9–Gsus2",
+      "style": "Sparse reflective electronic indie, 73 BPM, loose half-time 4/4. Keep the selected Kid Comet voice timbre, but use ONE natural mid-low lead, close and dry, conversational. NO octave doubling, pitch-shifted shadow voice, parallel-octave backing or stacked lead. Leave natural pauses. Warm worn electric piano, round sub notes, brushed rim clicks, tiny room noises, long instrumental spaces. Harmonic guide Fmaj7–C/E–Dm9–Gsus2, suspended resolution and descending inner voice, open major colors rather than another minor dance loop. No constant drum pulse in first verse. ONE solo lead in all verses and choruses, absolutely no backing choir or octave unison; vocal almost speaking at moments. A small guitar response instead of a vocal double. Understated, human, quiet ending, no dramatic crescendo.",
+      "lyrics": "[Verse 1]\nThe stars came off in pieces\nWhen I emptied out the drawer\nSome silver on my fingers\nSome glue that wouldn't go\nI kept the little metal tin\nThat used to hold your change\nAnd laid them in the bottom\nWith the tickets from that place\n\n[Refrain]\nNothing much to bury\nNothing much to say\nJust a bit of silver\nFrom an ordinary day\nClose the lid gently\nLeave it on the shelf\nSome things don't get bigger\nWhen you keep them to yourself\n\n[Verse 2]\nI thought I'd feel much older\nWith the room so clean and bare\nBut I still knew where the posters\nLeft their corners in the paint\nYour handwriting on a cassette\nI'd forgotten how to play\nI put it with the stickers\nAnd I put the box away\n\n[Instrumental Passage]\n\n[Refrain]\nNothing much to bury\nNothing much to say\nJust a bit of silver\nFrom an ordinary day\nClose the lid gently\nLeave it on the shelf\nSome things don't get bigger\nWhen you keep them to yourself\n\n[Bridge]\nNot a proper ending\nNot a great goodbye\nI just stopped unpacking\nAnd let the morning by\n\n[Outro]\nClose the lid gently\nLeave it on the shelf",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/b590a4ae-5c82-45ab-b87d-594bac8ca8f6"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/bee0fa6b-a65e-4570-bee3-2b59c12ed756"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "downloads_performed": 1,
+      "selected_variant": "B",
+      "selected_song_url": "https://suno.com/song/bee0fa6b-a65e-4570-bee3-2b59c12ed756",
+      "audio_file": "music/masters/08-star-sticker-funeral.wav"
+    },
+    {
+      "track_number": 10,
+      "title": "Arcade Heaven",
+      "kind": "vocal",
+      "bpm": 104,
+      "meter": "4/4",
+      "harmony": "verse Dmaj9–A/C#–Bm9–E13; refrain F#m7–C#m7–Dmaj7–Eadd9",
+      "style": "Expansive warm electronic indie centerpiece, 104 BPM, gently driving 4/4. Keep the selected Kid Comet voice timbre, but use ONE natural mid-low lead, close and dry, conversational. NO octave doubling, pitch-shifted shadow voice, parallel-octave backing or stacked lead. Leave natural pauses. Deep round bass, dry pocket drums, slow analog chords, tremolo guitar and small crystalline synth answers. Verse harmony Dmaj9–A/C#–Bm9–E13; refrain opens to F#m7–C#m7–Dmaj7–Eadd9, bridge briefly shifts to Bm7–Dmaj7–A/E–E. Build depth through instruments, NOT doubled vocals. Solo lead through verses and first two refrains; ONLY the final two sung lines may have one quiet third-above harmony, never octave doubling. Airy, tangible, bittersweet release, not stadium pop, no EDM drop. Long warm instrumental landing.",
+      "lyrics": "[Verse 1]\nThere was a light behind the cabinet\nWhere the wall had come away\nI thought somebody left a window\nIn a room that wasn't there\nYou put the cartridge on the counter\nWith the label wearing thin\nWe had nothing left to put in\nBut the door let us in\n\n[Refrain]\nArcade heaven\nWasn't high above the street\nJust a room beyond the racket\nWith a place for us to breathe\nNo one waiting for an answer\nNo one telling us to leave\nArcade heaven\nLeave a little light for me\n\n[Verse 2]\nThere were games we never finished\nThere were names we couldn't read\nThere were summers in the carpet\nThere were clouds beneath our feet\nYou were laughing at the doorway\nLike you'd known it all along\nWe'd been looking for a way out\nAnd we'd found a way back home\n\n[Refrain]\nArcade heaven\nWasn't high above the street\nJust a room beyond the racket\nWith a place for us to breathe\nNo one waiting for an answer\nNo one telling us to leave\nArcade heaven\nLeave a little light for me\n\n[Bridge]\nI don't need to stay forever\nI don't need the time to stop\nLet me take this small thing with me\nWhen the morning opens up\n\n[Final Refrain]\nArcade heaven\nWasn't high above the street\nJust a room beyond the racket\nWith a place for us to breathe\nNo one waiting for an answer\nNo one telling us to leave\n\n[Final two lines, quiet harmony in thirds only]\nArcade heaven\nLeave a little light for me\n\n[Instrumental Outro]",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/d9ed4255-4d39-4438-9ca8-5579c4006eb7"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/11fb8b18-5b0d-4e4f-a554-95651a02a2dc"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "downloads_performed": 1,
+      "selected_variant": "A",
+      "selected_song_url": "https://suno.com/song/d9ed4255-4d39-4438-9ca8-5579c4006eb7",
+      "audio_file": "music/masters/10-arcade-heaven.wav"
+    },
+    {
+      "track_number": 1,
+      "title": "Insert Coin to Dream",
+      "kind": "instrumental",
+      "bpm": 84,
+      "meter": "4/4",
+      "harmony": "Dmaj9–Bm11–Gmaj7–Aadd9",
+      "style": "INSTRUMENTAL ONLY, no singing, humming, vocal chops or spoken words. Short electronic indie album opening, about 65-85 seconds, 84 BPM loose 4/4. Coin-slot click becomes soft rim percussion, warm sub bass, wavering analog synth, sparse electric piano and one small plucked square-wave motif. Dmaj9–Bm11–Gmaj7–Aadd9, suspended colorful voicings, open space. Start with room tone and a click, let a lazy groove arrive halfway, then a short resolved tail. Tactile tape hiss, curious and intimate, not cinematic bombast, no EDM build. Same warm dusty electronic world as Kid Comet, no full chiptune arrangement.",
+      "lyrics": "",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/7734960d-2559-423a-af40-4e0ae7a1679c"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/e6a6f52d-800c-4db3-b035-f0aab5c0ac48"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "downloads_performed": 1,
+      "selected_variant": "A",
+      "selected_song_url": "https://suno.com/song/7734960d-2559-423a-af40-4e0ae7a1679c",
+      "audio_file": "music/masters/01-insert-coin-to-dream.wav"
+    },
+    {
+      "track_number": 9,
+      "title": "Continue?",
+      "kind": "instrumental",
+      "bpm": 101,
+      "meter": "5/4",
+      "harmony": "Cm9–Abmaj7–Fm9–G7",
+      "style": "INSTRUMENTAL ONLY, no vocals, humming, choir, speech or vocal samples. Compact electronic indie interlude, 60-90 seconds. 101 BPM in a subtle flowing 5/4 meter grouped 3+2, a gently lopsided loop that feels suspended rather than frantic. Muted analog bass, soft dry broken percussion, slow electric-piano figures and tiny pulse-wave countdown answers. Cm9–Abmaj7–Fm9–G7, voice-led voicings, brief dominant tension; leave an extra beat of air. Tape warmth and CRT-like soft high texture. One small melodic event in the middle, clean ending, no big drop, no generic soundtrack swell.",
+      "lyrics": "",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/0fa2869e-ff3b-42fe-81ca-3ecb1691899b"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/f5df5f1e-782c-4897-bb63-f4b96029fce1"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "downloads_performed": 1,
+      "selected_variant": "A",
+      "selected_song_url": "https://suno.com/song/0fa2869e-ff3b-42fe-81ca-3ecb1691899b",
+      "audio_file": "music/masters/09-continue.wav"
+    },
+    {
+      "track_number": 11,
+      "title": "Sunrise After Game Over",
+      "kind": "instrumental",
+      "bpm": 69,
+      "meter": "3/4",
+      "harmony": "Gmaj9–Em7–Am9–D13",
+      "style": "INSTRUMENTAL ONLY, no lead vocals, humming, choir or vocal samples. Warm electronic indie album closing piece, about 90-120 seconds, 69 BPM gentle 3/4 waltz. Simple unhurried electric-piano melody, soft analog bass and airy synth pad, barely-there brushed electronic percussion, small clean tremolo-guitar reply. Gmaj9–Em7–Am9–D13 with changing inversions, melodic rising sixth recalling a summer memory. Start nearly bare, open slightly in the middle, end with a long natural warm chord decay. Hopeful morning, tactile tape character, quieter than the title song. No bombastic crescendo or EDM drop.",
+      "lyrics": "",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/43754c83-c1dd-4498-8c21-07d7116906a1"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/7ce56d71-d0aa-4900-a896-541a864f367d"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "downloads_performed": 1,
+      "revision_file": "sunrise-revision.json",
+      "audio_file": "music/masters/11-sunrise-after-game-over.wav",
+      "selected_variant": "B",
+      "selected_batch": "soft groove audition 04",
+      "selected_song_url": "https://suno.com/song/2b89ad6a-768b-4dd6-b1be-6767622de8d7",
+      "selected_audition_file": "music/sunrise-revision.json"
+    }
+  ],
+  "downloads_performed": 7
+}

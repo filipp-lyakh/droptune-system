@@ -95,7 +95,12 @@ The following sections describe the **mobile app** unless noted otherwise.
 ## Purchase policy
 - Digital album purchases are **web-only**.
 - Mobile app never initiates payment and never claims copies.
-- Ownership is granted only after backend-confirmed payment.
+- Paid ownership is granted only after backend-confirmed payment.
+- Explicitly zero-priced albums use an authenticated web server action and the
+  service-role-only `claim_free_album_copy_for_user` RPC, without a payment order.
+  Null prices remain unavailable. The RPC validates the database price, serializes
+  free claims for each album, returns existing ownership on retries and issues
+  from the finite copy inventory. See ADR-005.
 
 ## Security rules for purchases
 - Clients may create payment orders but cannot mark them paid/fulfilled.
@@ -104,6 +109,7 @@ The following sections describe the **mobile app** unless noted otherwise.
 - Client roles (`anon`, `authenticated`) must not have `EXECUTE` on ownership-issuing RPCs:
   - `claim_album_copy`
   - `claim_album_copy_for_user`
+  - `claim_free_album_copy_for_user`
   - `fulfill_payment_order`
 - `authenticated` may `SELECT` and `INSERT` its own `payment_orders` rows through RLS, but must not `UPDATE` payment lifecycle fields.
 - `service_role` is the trusted backend role for payment status transitions and ownership fulfillment.

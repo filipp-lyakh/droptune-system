@@ -1,0 +1,46 @@
+{
+  "track_number": 2,
+  "title": "Bubblegum Meteor",
+  "provider": "Suno",
+  "observed_model": "v6",
+  "lyrics_file": "02-bubblegum-meteor-lyrics.txt",
+  "downloads_performed": 1,
+  "selection_required_before_download": true,
+  "selected_song_id": "b6eb9590-1521-4458-8001-186223fafb72",
+  "batches": [
+    {
+      "name": "audition 01",
+      "submitted_style": "Alternative electronic pop, Y2K synth-pop, indie dance, 124 BPM, bright bittersweet romantic energy. Youthful male light tenor, intimate conversational verses, effortless memorable sung chorus, restrained falsetto doubles, consistent single lead singer. Tight dry live-feeling drums, syncopated rubbery synth bass, glossy crystalline synth hooks, small chopped-vocal textures, subtle clean guitar. Verses leave space for the story, pre-chorus lifts, chorus opens wide without an EDM drop. Warm analog detail, crisp modern low end, tactile and human, cinematic summer night turning pink. Short instrumental intro, strong chorus by 45 seconds, contrasting bridge, resolved ending. No chiptune, no 8-bit sounds, no synthwave pastiche, no rap, no stadium rock, no overblown belting. Sing the supplied English lyrics exactly; do not sing style directions.",
+      "user_feedback": "Too pop-oriented; move toward electronic indie, Dope Lemon as mood reference.",
+      "status": "rejected_direction",
+      "songs": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/db27a7a9-6121-4552-98a0-cfb94aa2ddfc"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/9bdb6364-766a-4c9c-994d-59f311802cf7"
+        }
+      ]
+    },
+    {
+      "name": "indie audition 02",
+      "submitted_style": "Electronic indie, hazy psychedelic indie, downtempo, 94 BPM. Lazy swung drum-machine pocket, dry dusty snare, deep repeating synth bass, sparse tremolo guitar phrases with tape echoes, woozy analog synth chords, subtle electronic percussion. Relaxed low male vocal, close-miked, grainy, unhurried, nearly spoken verses; small hypnotic sung refrain, no glossy pop lift, no falsetto stacks or belting. Spacious repetitive slow-burn arrangement, head-nodding groove, warm and subtly strange. Electronic production is central; guitar stays a texture, never a rock solo. Small instrumental spaces between lines. Chorus stays in the pocket with a subtle harmonic change. Muted tape saturation, imperfect human detail, controlled low end, resolved ending. No EDM drop, bright synth-pop arpeggios, chiptune, stadium chorus or polished commercial-pop vocal. Original melody and voice.",
+      "status": "variant_a_selected",
+      "songs": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/b6eb9590-1521-4458-8001-186223fafb72"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/280e1ef1-a498-4e18-94e7-300f135497a4"
+        }
+      ]
+    }
+  ],
+  "selection_status": "approved_and_wav_downloaded",
+  "user_direction": "Keep electronic indie foundation; varied energy; upbeat tracks may include synth-pop and small 8-bit accents.",
+  "audio_file": "masters/02-bubblegum-meteor.wav"
+}

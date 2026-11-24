@@ -1,0 +1,374 @@
+{
+  "arts": [
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/1/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/1/art/1.webp",
+      "track_temp_id": "1"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/1/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/1/art/2.webp",
+      "track_temp_id": "1"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/1.webp",
+      "track_temp_id": "2"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/2.webp",
+      "track_temp_id": "2"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/3.webp",
+      "type": "image",
+      "order": 3,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/3.webp",
+      "track_temp_id": "2"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/4.webp",
+      "type": "image",
+      "order": 4,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/4.webp",
+      "track_temp_id": "2"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/5.webp",
+      "type": "image",
+      "order": 5,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/5.webp",
+      "track_temp_id": "2"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/6.webp",
+      "type": "image",
+      "order": 6,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/6.webp",
+      "track_temp_id": "2"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/7.webp",
+      "type": "image",
+      "order": 7,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/7.webp",
+      "track_temp_id": "2"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/8.webp",
+      "type": "image",
+      "order": 8,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/8.webp",
+      "track_temp_id": "2"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/1.webp",
+      "track_temp_id": "3"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/2.webp",
+      "track_temp_id": "3"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/3.webp",
+      "type": "image",
+      "order": 3,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/3.webp",
+      "track_temp_id": "3"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/4.webp",
+      "type": "image",
+      "order": 4,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/4.webp",
+      "track_temp_id": "3"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/5.webp",
+      "type": "image",
+      "order": 5,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/5.webp",
+      "track_temp_id": "3"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/6.webp",
+      "type": "image",
+      "order": 6,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/6.webp",
+      "track_temp_id": "3"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/7.webp",
+      "type": "image",
+      "order": 7,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/7.webp",
+      "track_temp_id": "3"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/4/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/4/art/1.webp",
+      "track_temp_id": "4"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/4/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/4/art/2.webp",
+      "track_temp_id": "4"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/5/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/5/art/1.webp",
+      "track_temp_id": "5"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/5/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/5/art/2.webp",
+      "track_temp_id": "5"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/6/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/6/art/1.webp",
+      "track_temp_id": "6"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/6/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/6/art/2.webp",
+      "track_temp_id": "6"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/7/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/7/art/1.webp",
+      "track_temp_id": "7"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/7/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/7/art/2.webp",
+      "track_temp_id": "7"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/8/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/8/art/1.webp",
+      "track_temp_id": "8"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/8/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/8/art/2.webp",
+      "track_temp_id": "8"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/9/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/9/art/1.webp",
+      "track_temp_id": "9"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/9/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/9/art/2.webp",
+      "track_temp_id": "9"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/1.webp",
+      "track_temp_id": "10"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/2.webp",
+      "track_temp_id": "10"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/3.webp",
+      "type": "image",
+      "order": 3,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/3.webp",
+      "track_temp_id": "10"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/4.webp",
+      "type": "image",
+      "order": 4,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/4.webp",
+      "track_temp_id": "10"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/5.webp",
+      "type": "image",
+      "order": 5,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/5.webp",
+      "track_temp_id": "10"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/6.webp",
+      "type": "image",
+      "order": 6,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/6.webp",
+      "track_temp_id": "10"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/7.webp",
+      "type": "image",
+      "order": 7,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/7.webp",
+      "track_temp_id": "10"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/11/art/1.webp",
+      "type": "image",
+      "order": 1,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/11/art/1.webp",
+      "track_temp_id": "11"
+    },
+    {
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/11/art/2.webp",
+      "type": "image",
+      "order": 2,
+      "content_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/11/art/2.webp",
+      "track_temp_id": "11"
+    }
+  ],
+  "album": {
+    "price": 0,
+    "title": "Arcade Heaven",
+    "artist_name": "Kid Comet",
+    "release_year": null,
+    "supply_total": 512,
+    "video_embed_url": null,
+    "background_color": null,
+    "gallery_description": "An electronic indie album from a lost arcade world: eleven tracks, translucent prizes, saved summer evenings and a sky behind the screen. Fictional artist; AI-generated music and artwork.",
+    "hero_background_color": null
+  },
+  "tracks": [
+    {
+      "title": "Insert Coin to Dream",
+      "temp_id": "1",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/1/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/1/audio.m4a",
+      "track_number": 1,
+      "duration_seconds": 132
+    },
+    {
+      "title": "Bubblegum Meteor",
+      "temp_id": "2",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/audio.m4a",
+      "track_number": 2,
+      "duration_seconds": 232
+    },
+    {
+      "title": "High Score Summer",
+      "temp_id": "3",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/audio.m4a",
+      "track_number": 3,
+      "duration_seconds": 238
+    },
+    {
+      "title": "Plastic Angel",
+      "temp_id": "4",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/4/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/4/audio.m4a",
+      "track_number": 4,
+      "duration_seconds": 230
+    },
+    {
+      "title": "Don’t Pause Me Now",
+      "temp_id": "5",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/5/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/5/audio.m4a",
+      "track_number": 5,
+      "duration_seconds": 212
+    },
+    {
+      "title": "Cherry Bomb Bonus Stage",
+      "temp_id": "6",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/6/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/6/audio.m4a",
+      "track_number": 6,
+      "duration_seconds": 192
+    },
+    {
+      "title": "Final Boss Feelings",
+      "temp_id": "7",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/7/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/7/audio.m4a",
+      "track_number": 7,
+      "duration_seconds": 212
+    },
+    {
+      "title": "Star Sticker Funeral",
+      "temp_id": "8",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/8/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/8/audio.m4a",
+      "track_number": 8,
+      "duration_seconds": 275
+    },
+    {
+      "title": "Continue?",
+      "temp_id": "9",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/9/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/9/audio.m4a",
+      "track_number": 9,
+      "duration_seconds": 89
+    },
+    {
+      "title": "Arcade Heaven",
+      "temp_id": "10",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/audio.m4a",
+      "track_number": 10,
+      "duration_seconds": 226
+    },
+    {
+      "title": "Sunrise After Game Over",
+      "temp_id": "11",
+      "audio_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/11/audio.m4a",
+      "audio_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/11/audio.m4a",
+      "track_number": 11,
+      "duration_seconds": 133
+    }
+  ],
+  "previews": [],
+  "cover_url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/cover.webp",
+  "cover_path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/cover.webp"
+}

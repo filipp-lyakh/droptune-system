@@ -1,0 +1,13 @@
+{
+  "draft_id": "e213aa34-fb30-4b63-8734-4f1dc33349fa",
+  "price": 0,
+  "supply_total": 512,
+  "status": "draft",
+  "tracks": 11,
+  "arts": 38,
+  "duration_schema": {
+    "format": "integer",
+    "type": "integer"
+  },
+  "published": false
+}

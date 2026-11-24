@@ -1,0 +1,23 @@
+{
+  "track_number": 11,
+  "title": "Sunrise After Game Over",
+  "batch": "soft groove audition 04",
+  "status": "selected_and_wav_downloaded",
+  "user_feedback": "Noise audition 03 too harsh and outside album style; restore relaxed electronic indie character without sweetness",
+  "style": "Instrumental electronic indie outro, 45-65 seconds, 78 BPM, relaxed loose pocket. A short continuation of a hazy psychedelic indie album: warm rounded bass holding a simple low pedal, muffled drum-machine kick, lazy dry rim clicks and a little swung shaker. Soft tape hiss sits quietly behind the music. Muted rhythm-guitar texture, gently filtered analog electronics, intimate slightly worn recording. Understated, earthy and casually cool, neither sweet nor harsh. Keep pitch movement minimal: one suspended tonal area, no developed lead melody or memorable hook. No piano, electric piano, sparkling synth keys, bells, pretty keyboard runs, lush pads, sentimental chord progression, vocals or humming. No abrasive distortion, industrial noise, ominous drone or sudden loud sounds. Noise is only a soft background texture; bass and the gentle groove remain the focus. Start already in the groove, gradually remove percussion and fade naturally, no build or grand finale.",
+  "lyrics": "",
+  "voice_profile": null,
+  "downloads_performed": 1,
+  "auditions": [
+    {
+      "variant": "A",
+      "url": "https://suno.com/song/30049332-b479-4a72-9b1b-65dfde646202"
+    },
+    {
+      "variant": "B",
+      "url": "https://suno.com/song/2b89ad6a-768b-4dd6-b1be-6767622de8d7"
+    }
+  ],
+  "selected_variant": "B",
+  "audio_file": "music/masters/11-sunrise-after-game-over.wav"
+}

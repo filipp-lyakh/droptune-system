@@ -1,0 +1,114 @@
+[
+  {
+    "file": "art/originals/01-artist.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "6cdb146f5cef80ed61d869cde3409c930f474bc333751e3163ab1d9f08def910",
+    "web_file": "art/web/01-artist.webp"
+  },
+  {
+    "file": "art/originals/01-scene.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "c9704320a41e0c9d894e87511df0a508abfbebb5e521b72dcadc7e792c9fdbed",
+    "web_file": "art/web/01-scene.webp"
+  },
+  {
+    "file": "art/originals/04-artist.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "2cfb316b1a92afbced8ec827bab8b587171eb9e398154d028ffd2aa5af498d2d",
+    "web_file": "art/web/04-artist.webp"
+  },
+  {
+    "file": "art/originals/04-scene.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "54852dc67cf1d5d759a336893bcbe4810ea547e0d1017178fab60f84d4a572e4",
+    "web_file": "art/web/04-scene.webp"
+  },
+  {
+    "file": "art/originals/05-artist.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "5abdf493c62230de2c227272114a3854c3189a7e49ee5195ffaa9f2c87fb341c",
+    "web_file": "art/web/05-artist.webp"
+  },
+  {
+    "file": "art/originals/05-scene.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "7f0a901d2f4a0d5c2d7fa4bac5efd8d6f12053ebfa31f042cdf0109552eed65e",
+    "web_file": "art/web/05-scene.webp"
+  },
+  {
+    "file": "art/originals/06-artist.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "6ff6b8fb8d6cc817ca37cbecb1d870469998bafbd4b8363ed8a90c4182647ff3",
+    "web_file": "art/web/06-artist.webp"
+  },
+  {
+    "file": "art/originals/06-scene.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "51164efb87b4a4370d782c67522c301e8f3f72bfd5a7c27fa49d91ee353d1733",
+    "web_file": "art/web/06-scene.webp"
+  },
+  {
+    "file": "art/originals/07-artist.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "75befaa0961a92cb448c71b2583d410dc83096596b476cba4eadc6353bc2b904",
+    "web_file": "art/web/07-artist.webp"
+  },
+  {
+    "file": "art/originals/07-scene.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "ce657755f61ed9a5b6d4db7a8bd178885ad2a6f76d349101eab76261ba28d84e",
+    "web_file": "art/web/07-scene.webp"
+  },
+  {
+    "file": "art/originals/08-artist.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "f8d3cfd2db48d4839efc0791f4d5a038ade507b593e38fd07dccf17896f9aa75",
+    "web_file": "art/web/08-artist.webp"
+  },
+  {
+    "file": "art/originals/08-scene.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "2e30f282ff5ce031051b398313f9e4d487d175bdedd327a675a45733a93009a3",
+    "web_file": "art/web/08-scene.webp"
+  },
+  {
+    "file": "art/originals/09-artist.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "e2a04c58258a0e13e20d6a61ceb18bf636fea155633475885ee056037a66edbf",
+    "web_file": "art/web/09-artist.webp"
+  },
+  {
+    "file": "art/originals/09-scene.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "02493191599a5f3519d59ad1cde3c38647ded17ef2d747f7aecee8efe9fd1c6b",
+    "web_file": "art/web/09-scene.webp"
+  },
+  {
+    "file": "art/originals/11-artist.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "d5855d7ff16b771313e7de1c4d907b262a3dffbbb505dd8e76c01a9d2686bd17",
+    "web_file": "art/web/11-artist.webp"
+  },
+  {
+    "file": "art/originals/11-scene.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "1b7192aeeab19132c7f8e3f848affdc38263b92aac2267c301afba853cc01e28",
+    "web_file": "art/web/11-scene.webp"
+  }
+]

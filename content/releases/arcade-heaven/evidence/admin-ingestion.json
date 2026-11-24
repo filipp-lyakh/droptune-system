@@ -1,0 +1,363 @@
+{
+  "draft_id": "e213aa34-fb30-4b63-8734-4f1dc33349fa",
+  "status": "published_and_verified",
+  "uploads": [
+    {
+      "file": "art/existing/00.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/cover.webp",
+      "type": "image/webp",
+      "sha256": "4fc9a8f34913594404a471979bfd574d11636e71332c2778f38b3edcde23e65f",
+      "bytes": 195836
+    },
+    {
+      "file": "music/delivery/01-insert-coin-to-dream.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/1/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "7aea0736e78eca1381c87d00eeb3f4750d2436622a1d1d60ef337359bc102dd0",
+      "bytes": 4195136
+    },
+    {
+      "file": "art/web/01-scene.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/1/art/1.webp",
+      "type": "image/webp",
+      "sha256": "016a351d5eb0741acc8bfe3a3c9859cbb8f7843bbe910299b7a71473e9277fa4",
+      "bytes": 238348
+    },
+    {
+      "file": "art/web/01-artist.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/1/art/2.webp",
+      "type": "image/webp",
+      "sha256": "7edf1352b3edffc6271356a663821b03c8dff607b183678d5521fdeb8caa7a13",
+      "bytes": 129616
+    },
+    {
+      "file": "music/delivery/02-bubblegum-meteor.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "123a96959329e6dbac96ca3e04c730608a28b5d0b5838d919dfa21ef36ce4e3c",
+      "bytes": 7375020
+    },
+    {
+      "file": "art/existing/01_01.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/1.webp",
+      "type": "image/webp",
+      "sha256": "540375a811d9688b9ce80554d7f8deab53d1f909b510ed4203380a0b6698d081",
+      "bytes": 240148
+    },
+    {
+      "file": "art/existing/01_02.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/2.webp",
+      "type": "image/webp",
+      "sha256": "bcc2573c02cfd6a63b0f56f8e1d673bab3573b720d68673c4bcc9aa5bf524696",
+      "bytes": 185002
+    },
+    {
+      "file": "art/existing/01_03.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/3.webp",
+      "type": "image/webp",
+      "sha256": "d17764bb69fef75d3408a4d37d7bf915bcebf8d15911d7b00b1f3dc69d331e49",
+      "bytes": 156598
+    },
+    {
+      "file": "art/existing/01_04.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/4.webp",
+      "type": "image/webp",
+      "sha256": "117d68058f300a2a443b887a9d70b68ecf841e32d7fb39375b68e4848eaa55ab",
+      "bytes": 153936
+    },
+    {
+      "file": "art/existing/01_05.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/5.webp",
+      "type": "image/webp",
+      "sha256": "addb78ed7c5a615c5dd5bce7288412d69d6aa26ba9e368e746d12769f689d6b6",
+      "bytes": 206268
+    },
+    {
+      "file": "art/existing/01_06.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/6.webp",
+      "type": "image/webp",
+      "sha256": "2fc3c3be3fe8f1058666678c0a8b4784721b69017b16cb67d6d63f23e7c01d18",
+      "bytes": 234182
+    },
+    {
+      "file": "art/existing/01_07.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/7.webp",
+      "type": "image/webp",
+      "sha256": "a530f902c19f7b31b48e82f50ae2a57d8daaf36858c381503b247fef4e5e88c0",
+      "bytes": 140462
+    },
+    {
+      "file": "art/existing/01_08.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/2/art/8.webp",
+      "type": "image/webp",
+      "sha256": "8cdac0b40fc7ece8c822cd3f1c8d655a590faccb76c28713a12475b6c81f50d8",
+      "bytes": 108876
+    },
+    {
+      "file": "music/delivery/03-high-score-summer.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "1f864010a6fe9977756239904d22364d0bc37a345724580f160f8f963e8d4e2b",
+      "bytes": 7681196
+    },
+    {
+      "file": "art/existing/02_01.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/1.webp",
+      "type": "image/webp",
+      "sha256": "2d590264618d3a42c9da92520303e3faed678c0b05d5fa2b4b0046d523f0b2b6",
+      "bytes": 190244
+    },
+    {
+      "file": "art/existing/02_02.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/2.webp",
+      "type": "image/webp",
+      "sha256": "6575f06fa67996d2f23578d5fcb47312eca900a4e67172ff76c2dcfffc69b044",
+      "bytes": 135276
+    },
+    {
+      "file": "art/existing/02_03.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/3.webp",
+      "type": "image/webp",
+      "sha256": "0fd56eb01bc1efb5f04e314db76cffeff03d94639d1e67cb45ca64306ae67935",
+      "bytes": 157632
+    },
+    {
+      "file": "art/existing/02_04.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/4.webp",
+      "type": "image/webp",
+      "sha256": "69ae497a4e2af293be8713ba8841a34cbf1abc8c174a686a539d9304b626fdc3",
+      "bytes": 136720
+    },
+    {
+      "file": "art/existing/02_05.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/5.webp",
+      "type": "image/webp",
+      "sha256": "10187dbb1df29fc6e6f0c1e40e911da0e4597ee3d4f3f0c3d135e827c1b882b0",
+      "bytes": 92536
+    },
+    {
+      "file": "art/existing/02_06.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/6.webp",
+      "type": "image/webp",
+      "sha256": "1ab22ce33e0b62eb944f11ff0f1713a55e0881e66d9baecdc6ed76ad7c0682c7",
+      "bytes": 150224
+    },
+    {
+      "file": "art/existing/02_07.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/3/art/7.webp",
+      "type": "image/webp",
+      "sha256": "4a960189aa83157e159f67520b98ec3e032276f904932d404c901e4dcd9c8be4",
+      "bytes": 88290
+    },
+    {
+      "file": "music/delivery/04-plastic-angel.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/4/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "28c095998c107b395503eaff759b5d920dfe6f4f4bb357859463d0a50208eb70",
+      "bytes": 7479675
+    },
+    {
+      "file": "art/web/04-scene.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/4/art/1.webp",
+      "type": "image/webp",
+      "sha256": "4088f159289c19354b0211c56cf00a9f72390da2027075044507dc75cf1b8635",
+      "bytes": 167446
+    },
+    {
+      "file": "art/web/04-artist.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/4/art/2.webp",
+      "type": "image/webp",
+      "sha256": "397be8312507d3846d1bc399545c6c9c9693c875a061509c9919b191fd5e4a45",
+      "bytes": 134590
+    },
+    {
+      "file": "music/delivery/05-dont-pause-me-now.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/5/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "0612e9a4e38c6f91f8e239f78f6d5f3889d2fbb8fae42bcc23792a2649292556",
+      "bytes": 6846807
+    },
+    {
+      "file": "art/web/05-scene.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/5/art/1.webp",
+      "type": "image/webp",
+      "sha256": "131591742d7b0a6a362c92108630294df74cd32617ffd00bf6e14c9aa615a291",
+      "bytes": 276408
+    },
+    {
+      "file": "art/web/05-artist.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/5/art/2.webp",
+      "type": "image/webp",
+      "sha256": "1dfebd17313f28ceb2f9120baf132e851874a425f5fca5e82e01f88f48bb680a",
+      "bytes": 128428
+    },
+    {
+      "file": "music/delivery/06-cherry-bomb-bonus-stage.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/6/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "9266ca633bd4aa23459f3b9f588bb5a372415549eed2f10fd2a995fe2e830ddd",
+      "bytes": 6106712
+    },
+    {
+      "file": "art/web/06-scene.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/6/art/1.webp",
+      "type": "image/webp",
+      "sha256": "290d7e9acd917a3129df6102e486dd225483f092c0d83c045e106362e9855a19",
+      "bytes": 341406
+    },
+    {
+      "file": "art/web/06-artist.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/6/art/2.webp",
+      "type": "image/webp",
+      "sha256": "36c6a6e90a56459055f98ad5ddfad6650acc0fbc660df4f97c5aa3317009b847",
+      "bytes": 175026
+    },
+    {
+      "file": "music/delivery/07-final-boss-feelings.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/7/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "ae07e2e400858851add0a7d1a41baf49e0bd37ef690c1481a9ad2859e41181b1",
+      "bytes": 6822414
+    },
+    {
+      "file": "art/web/07-scene.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/7/art/1.webp",
+      "type": "image/webp",
+      "sha256": "9754a20230747fe929722a5b3ebb566d9021ab13f80a19bf30756e22f18913d5",
+      "bytes": 211180
+    },
+    {
+      "file": "art/web/07-artist.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/7/art/2.webp",
+      "type": "image/webp",
+      "sha256": "435ec166ee92f525ec29624057b6efd9e5f2655006ff2489835142c460bf9d5d",
+      "bytes": 130008
+    },
+    {
+      "file": "music/delivery/08-star-sticker-funeral.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/8/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "efd03444e3ddc751aa87704a95ca35b953e3e5c25b0ad4b6eae9761ee90eaef2",
+      "bytes": 8816397
+    },
+    {
+      "file": "art/web/08-scene.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/8/art/1.webp",
+      "type": "image/webp",
+      "sha256": "48ead2afc374dd5286f092e89b1e81adae886806ac810a4f24e9529404f95d8d",
+      "bytes": 237320
+    },
+    {
+      "file": "art/web/08-artist.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/8/art/2.webp",
+      "type": "image/webp",
+      "sha256": "ece8fc5987c5e4a27784b78dddeccdc5f11cab39a30641b26abb4b07466bbd89",
+      "bytes": 164344
+    },
+    {
+      "file": "music/delivery/09-continue.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/9/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "8d89a884729b995dfdb51c0e452ecb18ecd95749249e5f0443f8c161f1b71fff",
+      "bytes": 2898741
+    },
+    {
+      "file": "art/web/09-scene.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/9/art/1.webp",
+      "type": "image/webp",
+      "sha256": "92d6d2774c32aa61f8fcfa3240a7de8fecddf6530e7d5e3f26ef43ea90b402fc",
+      "bytes": 254946
+    },
+    {
+      "file": "art/web/09-artist.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/9/art/2.webp",
+      "type": "image/webp",
+      "sha256": "e4481b8eac01451ade687fd9cedf34e2ebbe5bd97e83aea2c36b81586ea3f0df",
+      "bytes": 119740
+    },
+    {
+      "file": "music/delivery/10-arcade-heaven.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "84f0b8e65f7596004e789c756dca64e17efbdeb809e3b083a61a94813f86b74d",
+      "bytes": 7288237
+    },
+    {
+      "file": "art/existing/03_01.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/1.webp",
+      "type": "image/webp",
+      "sha256": "dec48c61e808220d466bbf9fd4b4f7ec82315943f9bba48273d197bfa6a1d1d0",
+      "bytes": 160784
+    },
+    {
+      "file": "art/existing/03_02.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/2.webp",
+      "type": "image/webp",
+      "sha256": "322856320596a3001ef9c0bff1fdba046464885874ce130cc1e60c22eff1a5ed",
+      "bytes": 142648
+    },
+    {
+      "file": "art/existing/03_03.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/3.webp",
+      "type": "image/webp",
+      "sha256": "e2db50ad1e83b3f21422de1644fb749b6b132eeb1e294a3d78fb3034148dc8a2",
+      "bytes": 240880
+    },
+    {
+      "file": "art/existing/03_04.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/4.webp",
+      "type": "image/webp",
+      "sha256": "97d9eaf199e782e7dc2970a1b4b235282e6324076de968e167ccebb0a1c653ec",
+      "bytes": 321954
+    },
+    {
+      "file": "art/existing/03_05.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/5.webp",
+      "type": "image/webp",
+      "sha256": "be00420f3784dd2820ba0dee7db68c634fe128c533ac416734ecb8ee0c8a4fc9",
+      "bytes": 135608
+    },
+    {
+      "file": "art/existing/03_06.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/6.webp",
+      "type": "image/webp",
+      "sha256": "26d7013932e0d102ba50c863419640a40b0f35c04ec060345c5ffcde2ec8d101",
+      "bytes": 141040
+    },
+    {
+      "file": "art/existing/03_07.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/10/art/7.webp",
+      "type": "image/webp",
+      "sha256": "65085c4bc2c149b673fecb97579a83b6b149e00df826db23b1d229d9e2bf390c",
+      "bytes": 99352
+    },
+    {
+      "file": "music/delivery/11-sunrise-after-game-over.m4a",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/11/audio.m4a",
+      "type": "audio/mp4",
+      "sha256": "69ac6c1587c391b1eea27fb73eeb902bb89409406f9f5cdbaebf9df83ecfbdeb",
+      "bytes": 4346596
+    },
+    {
+      "file": "art/web/11-scene.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/11/art/1.webp",
+      "type": "image/webp",
+      "sha256": "fbcbbb14bb4226f5e4af79134eccac759132a094ff3258031419802ebf55bfc2",
+      "bytes": 339040
+    },
+    {
+      "file": "art/web/11-artist.webp",
+      "path": "albums/e213aa34-fb30-4b63-8734-4f1dc33349fa/tracks/11/art/2.webp",
+      "type": "image/webp",
+      "sha256": "1046d2d988dfa759174ec49ab25027ec3fc085bded77e4568c566fe9ee0bf0ea",
+      "bytes": 163578
+    }
+  ],
+  "tracks": 11,
+  "arts": 38,
+  "published": true,
+  "pending_metadata": [],
+  "verified_at": "2026-11-24T22:11:16.005Z",
+  "price": 0,
+  "supply_total": 512
+}

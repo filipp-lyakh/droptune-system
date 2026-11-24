@@ -50,6 +50,25 @@ Core system contracts remain in `docs/core/*`.
 - Inter (`--font-inter`) as primary sans font.
 - Geist Mono retained for monospace tokens only.
 
+## Free limited editions
+
+Album pages at `/album/[id]` and `/albums/[id]` show `Забрать бесплатно` for
+an explicit zero price. Direct clicks and the post-login `buy=1` continuation
+call `claimFreeAlbum`, which verifies the server session and calls the
+service-role-only free-claim RPC. Success reloads the canonical album page
+without the intent query and shows the owned state. Positive prices continue
+through payment; null prices remain unavailable. No mobile claim flow is added.
+
+Deployed 2026-11-25: web commit `784daf9`, Vercel deployment
+`dpl_9cQG5ypUuPQgwxA3xdAi1SQUSDZs`. Migration
+`20261125020000_add_backend_free_album_claim.sql` was applied to staging and
+production. Local PostgreSQL tests, web build/lint, staging concurrency (twelve
+same-user requests), and production web claim passed. The production check
+verified one zero-price primary transaction, one owned copy and no payment order.
+The production transaction table lacks the aligned schema's status column;
+issuance uses the existing trusted RPC without requiring that field. Native
+mobile playback was not exercised in this browser smoke test.
+
 ## Internal admin upload (MVP)
 - Route: `/admin`.
 - Access policy: authenticated user + email allowlist (`ADMIN_UPLOAD_ALLOWLIST`).

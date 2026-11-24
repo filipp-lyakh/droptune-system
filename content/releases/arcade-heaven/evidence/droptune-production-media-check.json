@@ -1,0 +1,308 @@
+[
+  {
+    "number": 1,
+    "title": "Insert Coin to Dream",
+    "audio": {
+      "status": 200,
+      "bytes": 12828073,
+      "type": "audio/mpeg",
+      "sha256": "ec13246bc24548f020de817dd59c3e1feedf6b4ff347f1245d4653cbd431b7c9"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/1/art/1.gif",
+        "status": 200,
+        "bytes": "758126",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Bubblegum Meteor",
+    "audio": {
+      "status": 200,
+      "bytes": 2306368,
+      "type": "audio/mpeg",
+      "sha256": "67b10e019451b372eb84c1bda79308e2826aae4aa5f4638d5e7b73feffa50de8"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/1.gif",
+        "status": 200,
+        "bytes": "758126",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/2.gif",
+        "status": 200,
+        "bytes": "820340",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/3.gif",
+        "status": 200,
+        "bytes": "621841",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/4.gif",
+        "status": 200,
+        "bytes": "689385",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/5.gif",
+        "status": 200,
+        "bytes": "849925",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/6.gif",
+        "status": 200,
+        "bytes": "689731",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/2/art/7.gif",
+        "status": 200,
+        "bytes": "714961",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "title": "High Score Summer",
+    "audio": {
+      "status": 200,
+      "bytes": 8375289,
+      "type": "audio/mpeg",
+      "sha256": "75e9e671056777911797e5ad07cebcc9641c8f49efcc32c01c3c899e56d931a9"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/1.gif",
+        "status": 200,
+        "bytes": "808240",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/2.gif",
+        "status": 200,
+        "bytes": "739767",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/3.gif",
+        "status": 200,
+        "bytes": "588611",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/4.gif",
+        "status": 200,
+        "bytes": "618734",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/5.gif",
+        "status": 200,
+        "bytes": "528795",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/6.gif",
+        "status": 200,
+        "bytes": "550233",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/3/art/7.gif",
+        "status": 200,
+        "bytes": "675247",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Plastic Angel",
+    "audio": {
+      "status": 200,
+      "bytes": 6318605,
+      "type": "audio/mpeg",
+      "sha256": "ec10823879beb9537db04f703b620e4512d16f921007ed49e5d3fc3dfc672127"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/4/art/1.gif",
+        "status": 200,
+        "bytes": "758126",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Don’t Pause Me Now",
+    "audio": {
+      "status": 200,
+      "bytes": 12828073,
+      "type": "audio/mpeg",
+      "sha256": "ec13246bc24548f020de817dd59c3e1feedf6b4ff347f1245d4653cbd431b7c9"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/5/art/1.gif",
+        "status": 200,
+        "bytes": "758126",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Cherry Bomb Bonus Stage",
+    "audio": {
+      "status": 200,
+      "bytes": 2306368,
+      "type": "audio/mpeg",
+      "sha256": "67b10e019451b372eb84c1bda79308e2826aae4aa5f4638d5e7b73feffa50de8"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/6/art/1.gif",
+        "status": 200,
+        "bytes": "758126",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Final Boss Feelings",
+    "audio": {
+      "status": 200,
+      "bytes": 8375289,
+      "type": "audio/mpeg",
+      "sha256": "75e9e671056777911797e5ad07cebcc9641c8f49efcc32c01c3c899e56d931a9"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/7/art/1.gif",
+        "status": 200,
+        "bytes": "758126",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Star Sticker Funeral",
+    "audio": {
+      "status": 200,
+      "bytes": 6318605,
+      "type": "audio/mpeg",
+      "sha256": "ec10823879beb9537db04f703b620e4512d16f921007ed49e5d3fc3dfc672127"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/8/art/1.gif",
+        "status": 200,
+        "bytes": "758126",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Continue?",
+    "audio": {
+      "status": 200,
+      "bytes": 12828073,
+      "type": "audio/mpeg",
+      "sha256": "ec13246bc24548f020de817dd59c3e1feedf6b4ff347f1245d4653cbd431b7c9"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/9/art/1.gif",
+        "status": 200,
+        "bytes": "758126",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Arcade Heaven",
+    "audio": {
+      "status": 200,
+      "bytes": 2306368,
+      "type": "audio/mpeg",
+      "sha256": "67b10e019451b372eb84c1bda79308e2826aae4aa5f4638d5e7b73feffa50de8"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/1.gif",
+        "status": 200,
+        "bytes": "650373",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/2.gif",
+        "status": 200,
+        "bytes": "609511",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/3.gif",
+        "status": 200,
+        "bytes": "907198",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/4.gif",
+        "status": 200,
+        "bytes": "1193593",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/5.gif",
+        "status": 200,
+        "bytes": "666038",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/6.gif",
+        "status": 200,
+        "bytes": "586546",
+        "type": "image/gif"
+      },
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/10/art/7.gif",
+        "status": 200,
+        "bytes": "716129",
+        "type": "image/gif"
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Sunrise After Game Over",
+    "audio": {
+      "status": 200,
+      "bytes": 6318605,
+      "type": "audio/mpeg",
+      "sha256": "ec10823879beb9537db04f703b620e4512d16f921007ed49e5d3fc3dfc672127"
+    },
+    "art": [
+      {
+        "url": "https://aqdmdsucrxgidqhghdaa.supabase.co/storage/v1/object/public/media/albums/d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e/tracks/11/art/1.gif",
+        "status": 200,
+        "bytes": "758126",
+        "type": "image/gif"
+      }
+    ]
+  }
+]

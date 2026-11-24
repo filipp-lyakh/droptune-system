@@ -6,6 +6,7 @@
 | ADR-002 | Accepted | 2026-03-03 | Two-table ownership model | `album_copies` + `copy_ownership` + `transactions` |
 | ADR-003 | Proposed | 2026-03-03 | NFT via custodial + lazy mint | Future optional web3 layer without crypto UX |
 | ADR-004 | Accepted | 2026-04-25 | Shared layout-level header and footer | Unified global shell for web routes |
+| ADR-005 | Accepted | 2026-11-25 | Backend-only free album claims | Zero price, finite inventory and idempotent server issuance |
 
 ## Rules
 - Новое системное решение оформляется отдельным ADR.

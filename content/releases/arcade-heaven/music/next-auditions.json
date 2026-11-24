@@ -1,0 +1,75 @@
+{
+  "status": "selected_variants_b_downloaded",
+  "voice_source_song_id": "b6eb9590-1521-4458-8001-186223fafb72",
+  "songs": [
+    {
+      "track_number": 3,
+      "title": "High Score Summer",
+      "bpm": 96,
+      "energy": "relaxed",
+      "style": "Hazy electronic indie, psychedelic downtempo, 96 BPM. Same fictional artist: relaxed low grainy male vocal, close-miked, slight slapback, intimate unhurried delivery, no belting or falsetto stacks. Warm analog electronics, deep synth bass, tape character, dry drums, original melody. Loose swung drum-machine pocket, rounded repeating bass, soft electric-piano chords, sparse tremolo guitar and woozy synth haze. Warm afternoon feel, bittersweet but easy. Small melodic refrain, spacious verses, no stadium chorus, no EDM drop. A gentle instrumental turn after the bridge; resolved ending. No chiptune on this track.",
+      "lyrics": "[Verse 1]\nThe corner shop was closing\nYou had change enough for two\nWe took the long way to the arcade\nThere was nothing else to do\nYou balanced soda on the cabinet\nAnd told me not to spill\nI lost a life to make you laugh\nI think about that still\n\n[Chorus]\nHigh score summer\nLeave my name up on the screen\nI don't need another number\nJust a place we used to be\nHigh score summer\nLet the little green light stay\nI was happy doing nothing\nWith you wasting half the day\n\n[Verse 2]\nThe air conditioner was broken\nYour hair was sticking to your neck\nYou drew a star upon my wrist\nWith a pen that barely worked\nWe never made it to the ocean\nWe could hear the traffic roll\nYou said the sea was overrated\nThen you beat my highest score\n\n[Chorus]\nHigh score summer\nLeave my name up on the screen\nI don't need another number\nJust a place we used to be\nHigh score summer\nLet the little green light stay\nI was happy doing nothing\nWith you wasting half the day\n\n[Bridge]\nSomeone's painted over the doorway\nSomeone's changed the carpet too\nEvery time I pass that corner\nI still turn to look for you\n\n[Final Chorus]\nHigh score summer\nLeave my name up on the screen\nI don't need another number\nJust a place we used to be\nHigh score summer\nLet the little green light stay\nI was happy doing nothing\nWith you wasting half the day\n\n[Instrumental Outro]",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/fba2d614-0fff-4bcd-a190-d641b5f07a7d"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/cbfe78c3-7cf0-489f-82b3-5053c2a01bb1"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "selected_variant": "B",
+      "selected_song_url": "https://suno.com/song/cbfe78c3-7cf0-489f-82b3-5053c2a01bb1",
+      "audio_file": "music/masters/03-high-score-summer.wav"
+    },
+    {
+      "track_number": 5,
+      "title": "Don't Pause Me Now",
+      "bpm": 119,
+      "energy": "upbeat",
+      "style": "Electronic indie dance, understated synth-pop accents, 119 BPM. Same fictional artist: relaxed low grainy male vocal, close-miked, slight slapback, intimate unhurried delivery, no belting or falsetto stacks. Warm analog electronics, deep synth bass, tape character, dry drums, original melody. Propulsive dry drum-machine groove, elastic syncopated synth bass, clipped rhythm guitar, warm analog chords. Short playful square-wave answer to the main synth hook only between vocal lines; 8-bit detail, not a game soundtrack. Verses stay close and loose, chorus becomes rhythmic and wider without glossy commercial-pop lift. Energetic night-drive momentum, brief half-time bridge, return to groove and decisive ending. No EDM build/drop, no sugary high tenor.",
+      "lyrics": "[Verse 1]\nYou keep your finger on the button\nLike the room could disappear\nI've been waiting for the right time\nI've been standing here a year\nPut your coat back on the railing\nLet the phone ring in your bag\nThere's a beat behind the kitchen wall\nI want to follow that\n\n[Pre-Chorus]\nWe can talk about tomorrow\nWhen tomorrow comes around\nLet the record run a little\nLet the needle wear it down\n\n[Chorus]\nDon't pause me now\nI just got moving\nFeet on the ground\nNothing to prove here\nLet it run out\nLet it go wrong\nDon't pause me now\nI'm already gone\n\n[Verse 2]\nAll the plans we made on paper\nNever made it past the stairs\nTake the lift down to the pavement\nLeave the list beside the bed\nYou don't have to call it freedom\nYou don't have to call it love\nThere's a light above the crossing\nAnd it's green enough for us\n\n[Chorus]\nDon't pause me now\nI just got moving\nFeet on the ground\nNothing to prove here\nLet it run out\nLet it go wrong\nDon't pause me now\nI'm already gone\n\n[Bridge]\nNot a better version\nNot a brand new life\nJust a little motion\nOn an ordinary night\n\n[Final Chorus]\nDon't pause me now\nI just got moving\nFeet on the ground\nNothing to prove here\nLet it run out\nLet it go wrong\nDon't pause me now\nI'm already gone\n\n[Instrumental Outro]",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/8a626da0-ab09-4a59-9150-50c619d1e0a8"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/97ef8b35-42d2-4cb4-bdc5-83775c4b5e9e"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "selected_variant": "B",
+      "selected_song_url": "https://suno.com/song/97ef8b35-42d2-4cb4-bdc5-83775c4b5e9e",
+      "audio_file": "music/masters/05-dont-pause-me-now.wav"
+    },
+    {
+      "track_number": 6,
+      "title": "Cherry Bomb Bonus Stage",
+      "bpm": 126,
+      "energy": "upbeat_playful",
+      "style": "Playful electronic indie dance, leftfield synth-pop touches, 126 BPM. Same fictional artist: relaxed low grainy male vocal, close-miked, slight slapback, intimate unhurried delivery, no belting or falsetto stacks. Warm analog electronics, deep synth bass, tape character, dry drums, original melody. Short punchy arrangement, chunky syncopated synth bass, crisp dry drums, shuffled hats, wiry muted guitar. Occasional two-bar pulse-wave/chiptune fills and tiny coin-like synth blips between sections; warm 8-bit accents below the human vocal, never continuous video-game music. Hook is low, cheeky and rhythmic, not an anthem. Stop-start break before final refrain, short clean ending. Dusty tactile production, no EDM supersaws, no glossy chart-pop chorus.",
+      "lyrics": "[Verse 1]\nTwo red cherries in a plastic ball\nYou won them from the machine\nSpent a whole week's bus fare\nOn a thing we'd never need\nYou hung them from my jacket\nSaid it suited me somehow\nThey were knocking on the zipper\nWhen we ran the last bus down\n\n[Chorus]\nCherry bomb\nLittle bit of luck\nNothing in our pockets\nBut we couldn't get enough\nCherry bomb\nShake it till it breaks\nOne more little minute\nIn the bonus stage\n\n[Verse 2]\nThere was glitter in your soda\nThere were tickets in my shoes\nYou were counting out the prizes\nI was trying not to look at you\nAnd the man behind the counter\nTurned the lights off one by one\nYou said keep the change for next time\nLike the next time had begun\n\n[Chorus]\nCherry bomb\nLittle bit of luck\nNothing in our pockets\nBut we couldn't get enough\nCherry bomb\nShake it till it breaks\nOne more little minute\nIn the bonus stage\n\n[Instrumental Break]\n\n[Bridge]\nNot the money\nNot the prize\nJust the stupid way\nYou caught my eye\n\n[Final Chorus]\nCherry bomb\nLittle bit of luck\nNothing in our pockets\nBut we couldn't get enough\nCherry bomb\nShake it till it breaks\nOne more little minute\nIn the bonus stage\n\n[Outro]\nOne more little minute\nIn the bonus stage",
+      "auditions": [
+        {
+          "variant": "A",
+          "url": "https://suno.com/song/aa6b3d79-a913-4df1-8545-6ad1aaa1110e"
+        },
+        {
+          "variant": "B",
+          "url": "https://suno.com/song/0569b6ad-a0a2-4f8e-99d0-3e27342be956"
+        }
+      ],
+      "status": "selected_and_wav_downloaded",
+      "selected_variant": "B",
+      "selected_song_url": "https://suno.com/song/0569b6ad-a0a2-4f8e-99d0-3e27342be956",
+      "audio_file": "music/masters/06-cherry-bomb-bonus-stage.wav"
+    }
+  ],
+  "voice_profile_url": "https://suno.com/voice/5e0b5c88-fb6c-4804-a285-ec2606c66bf5",
+  "voice_profile_public": false,
+  "downloads_performed": 3
+}

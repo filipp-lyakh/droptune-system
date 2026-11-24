@@ -1,0 +1,95 @@
+{
+  "codec": "AAC",
+  "container": "M4A",
+  "target_bitrate": 256000,
+  "tracks": [
+    {
+      "track_number": 1,
+      "file": "music/delivery/01-insert-coin-to-dream.m4a",
+      "duration_seconds": 132.44,
+      "bytes": 4195136,
+      "sha256": "7aea0736e78eca1381c87d00eeb3f4750d2436622a1d1d60ef337359bc102dd0",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 2,
+      "file": "music/delivery/02-bubblegum-meteor.m4a",
+      "duration_seconds": 231.6,
+      "bytes": 7375020,
+      "sha256": "123a96959329e6dbac96ca3e04c730608a28b5d0b5838d919dfa21ef36ce4e3c",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 3,
+      "file": "music/delivery/03-high-score-summer.m4a",
+      "duration_seconds": 238.24,
+      "bytes": 7681196,
+      "sha256": "1f864010a6fe9977756239904d22364d0bc37a345724580f160f8f963e8d4e2b",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 4,
+      "file": "music/delivery/04-plastic-angel.m4a",
+      "duration_seconds": 229.6,
+      "bytes": 7479675,
+      "sha256": "28c095998c107b395503eaff759b5d920dfe6f4f4bb357859463d0a50208eb70",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 5,
+      "file": "music/delivery/05-dont-pause-me-now.m4a",
+      "duration_seconds": 212.2,
+      "bytes": 6846807,
+      "sha256": "0612e9a4e38c6f91f8e239f78f6d5f3889d2fbb8fae42bcc23792a2649292556",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 6,
+      "file": "music/delivery/06-cherry-bomb-bonus-stage.m4a",
+      "duration_seconds": 192.32,
+      "bytes": 6106712,
+      "sha256": "9266ca633bd4aa23459f3b9f588bb5a372415549eed2f10fd2a995fe2e830ddd",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 7,
+      "file": "music/delivery/07-final-boss-feelings.m4a",
+      "duration_seconds": 212.0,
+      "bytes": 6822414,
+      "sha256": "ae07e2e400858851add0a7d1a41baf49e0bd37ef690c1481a9ad2859e41181b1",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 8,
+      "file": "music/delivery/08-star-sticker-funeral.m4a",
+      "duration_seconds": 275.0,
+      "bytes": 8816397,
+      "sha256": "efd03444e3ddc751aa87704a95ca35b953e3e5c25b0ad4b6eae9761ee90eaef2",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 9,
+      "file": "music/delivery/09-continue.m4a",
+      "duration_seconds": 88.8,
+      "bytes": 2898741,
+      "sha256": "8d89a884729b995dfdb51c0e452ecb18ecd95749249e5f0443f8c161f1b71fff",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 10,
+      "file": "music/delivery/10-arcade-heaven.m4a",
+      "duration_seconds": 225.96,
+      "bytes": 7288237,
+      "sha256": "84f0b8e65f7596004e789c756dca64e17efbdeb809e3b083a61a94813f86b74d",
+      "decoded_entire_file": true
+    },
+    {
+      "track_number": 11,
+      "file": "music/delivery/11-sunrise-after-game-over.m4a",
+      "duration_seconds": 133.24,
+      "bytes": 4346596,
+      "sha256": "69ac6c1587c391b1eea27fb73eeb902bb89409406f9f5cdbaebf9df83ecfbdeb",
+      "decoded_entire_file": true
+    }
+  ]
+}

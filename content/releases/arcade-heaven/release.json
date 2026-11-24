@@ -1,0 +1,452 @@
+{
+  "version": 1,
+  "status": "published_on_production",
+  "updated_at": "2026-11-25",
+  "artist_name": "Kid Comet",
+  "title": "Arcade Heaven",
+  "description_draft": "An electronic indie album from a lost arcade world: eleven tracks, translucent prizes, saved summer evenings and a sky behind the screen. Fictional artist; AI-generated music and artwork.",
+  "cover_file": "art/existing/00.webp",
+  "price": 0,
+  "proposed_supply_total": 512,
+  "supply_status": "user_confirmed_2026-11-25",
+  "release_year": null,
+  "existing_test_album_id": "d724b0ef-b54f-49f0-8ca6-9421a7b8ad3e",
+  "published_album_id": "e213aa34-fb30-4b63-8734-4f1dc33349fa",
+  "publish_strategy": "new_release_through_admin_draft_publish",
+  "tracks": [
+    {
+      "track_number": 1,
+      "title": "Insert Coin to Dream",
+      "music_kind": "instrumental",
+      "proposed_music_brief": "Short instrumental invitation; coin-slot click becomes a warm bass motif.",
+      "audio_file": "music/masters/01-insert-coin-to-dream.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/web/01-scene.webp",
+          "master": "art/originals/01-scene.png",
+          "origin": "generated_2026-11-24"
+        },
+        {
+          "order": 2,
+          "kind": "artist_photo",
+          "file": "art/web/01-artist.webp",
+          "master": "art/originals/01-artist.png",
+          "origin": "generated_2026-11-24"
+        }
+      ],
+      "proposed_bpm": 84,
+      "energy_direction": "instrumental opening, dusty electronics",
+      "auditions_file": "music/remaining-auditions.json",
+      "proposed_meter": "4/4",
+      "proposed_harmony": "Dmaj9–Bm11–Gmaj7–Aadd9",
+      "selected_song_url": "https://suno.com/song/7734960d-2559-423a-af40-4e0ae7a1679c"
+    },
+    {
+      "track_number": 2,
+      "title": "Bubblegum Meteor",
+      "music_kind": "vocal",
+      "proposed_music_brief": "Vocal anchor; first strange romantic event, pink sky outside the arcade.",
+      "audio_file": "music/masters/02-bubblegum-meteor.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/existing/01_01.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 2,
+          "kind": "scene",
+          "file": "art/existing/01_02.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 3,
+          "kind": "scene",
+          "file": "art/existing/01_03.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 4,
+          "kind": "scene",
+          "file": "art/existing/01_04.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 5,
+          "kind": "scene",
+          "file": "art/existing/01_05.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 6,
+          "kind": "scene",
+          "file": "art/existing/01_06.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 7,
+          "kind": "artist_photo",
+          "file": "art/existing/01_07.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 8,
+          "kind": "artist_photo",
+          "file": "art/existing/01_08.webp",
+          "origin": "existing_demo"
+        }
+      ],
+      "proposed_bpm": 94,
+      "energy_direction": "approved relaxed electronic indie",
+      "selected_song_url": "https://suno.com/song/b6eb9590-1521-4458-8001-186223fafb72"
+    },
+    {
+      "track_number": 3,
+      "title": "High Score Summer",
+      "music_kind": "vocal",
+      "proposed_music_brief": "Vocal; sun-baked relaxed groove and a remembered summer evening.",
+      "audio_file": "music/masters/03-high-score-summer.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/existing/02_01.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 2,
+          "kind": "scene",
+          "file": "art/existing/02_02.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 3,
+          "kind": "scene",
+          "file": "art/existing/02_03.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 4,
+          "kind": "scene",
+          "file": "art/existing/02_04.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 5,
+          "kind": "scene",
+          "file": "art/existing/02_05.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 6,
+          "kind": "scene",
+          "file": "art/existing/02_06.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 7,
+          "kind": "artist_photo",
+          "file": "art/existing/02_07.webp",
+          "origin": "existing_demo"
+        }
+      ],
+      "proposed_bpm": 96,
+      "energy_direction": "warm loose summer groove",
+      "auditions_file": "music/next-auditions.json",
+      "selected_song_url": "https://suno.com/song/cbfe78c3-7cf0-489f-82b3-5053c2a01bb1"
+    },
+    {
+      "track_number": 4,
+      "title": "Plastic Angel",
+      "music_kind": "vocal",
+      "proposed_music_brief": "Vocal; fragile attachment represented by a plastic prize.",
+      "audio_file": "music/masters/04-plastic-angel.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/web/04-scene.webp",
+          "master": "art/originals/04-scene.png",
+          "origin": "generated_2026-11-24"
+        },
+        {
+          "order": 2,
+          "kind": "artist_photo",
+          "file": "art/web/04-artist.webp",
+          "master": "art/originals/04-artist.png",
+          "origin": "generated_2026-11-24"
+        }
+      ],
+      "proposed_bpm": 87,
+      "energy_direction": "fragile intimate downtempo",
+      "auditions_file": "music/remaining-auditions.json",
+      "proposed_meter": "6/8",
+      "proposed_harmony": "Ebmaj7–Gm7–Abmaj7–Fm9–Bb13",
+      "selected_song_url": "https://suno.com/song/0333ced0-1423-4b90-bc40-136203c0e1ac"
+    },
+    {
+      "track_number": 5,
+      "title": "Don’t Pause Me Now",
+      "music_kind": "vocal",
+      "proposed_music_brief": "Vocal; slightly faster forward motion without a glossy pop chorus.",
+      "audio_file": "music/masters/05-dont-pause-me-now.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/web/05-scene.webp",
+          "master": "art/originals/05-scene.png",
+          "origin": "generated_2026-11-24"
+        },
+        {
+          "order": 2,
+          "kind": "artist_photo",
+          "file": "art/web/05-artist.webp",
+          "master": "art/originals/05-artist.png",
+          "origin": "generated_2026-11-24"
+        }
+      ],
+      "proposed_bpm": 119,
+      "energy_direction": "propulsive indie dance, synth-pop and tiny square-wave hook",
+      "auditions_file": "music/next-auditions.json",
+      "selected_song_url": "https://suno.com/song/97ef8b35-42d2-4cb4-bdc5-83775c4b5e9e"
+    },
+    {
+      "track_number": 6,
+      "title": "Cherry Bomb Bonus Stage",
+      "music_kind": "vocal",
+      "proposed_music_brief": "Short playful vocal song; dry syncopation and cherry-red bonus prize.",
+      "audio_file": "music/masters/06-cherry-bomb-bonus-stage.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/web/06-scene.webp",
+          "master": "art/originals/06-scene.png",
+          "origin": "generated_2026-11-24"
+        },
+        {
+          "order": 2,
+          "kind": "artist_photo",
+          "file": "art/web/06-artist.webp",
+          "master": "art/originals/06-artist.png",
+          "origin": "generated_2026-11-24"
+        }
+      ],
+      "proposed_bpm": 126,
+      "energy_direction": "playful electronic indie, short 8-bit fills",
+      "auditions_file": "music/next-auditions.json",
+      "selected_song_url": "https://suno.com/song/0569b6ad-a0a2-4f8e-99d0-3e27342be956"
+    },
+    {
+      "track_number": 7,
+      "title": "Final Boss Feelings",
+      "music_kind": "vocal",
+      "proposed_music_brief": "Vocal; vulnerability, low register, heavier bass, contained intensity.",
+      "audio_file": "music/masters/07-final-boss-feelings.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/web/07-scene.webp",
+          "master": "art/originals/07-scene.png",
+          "origin": "generated_2026-11-24"
+        },
+        {
+          "order": 2,
+          "kind": "artist_photo",
+          "file": "art/web/07-artist.webp",
+          "master": "art/originals/07-artist.png",
+          "origin": "generated_2026-11-24"
+        }
+      ],
+      "proposed_bpm": 111,
+      "energy_direction": "darker tense syncopated bass groove",
+      "auditions_file": "music/remaining-auditions.json",
+      "proposed_meter": "4/4_syncopated",
+      "proposed_harmony": "F#m9–Dmaj7–Bm7–C#7",
+      "selected_song_url": "https://suno.com/song/bca81843-91e1-4e03-9d0c-19fda3db8c3e"
+    },
+    {
+      "track_number": 8,
+      "title": "Star Sticker Funeral",
+      "music_kind": "vocal",
+      "proposed_music_brief": "Vocal; quiet farewell to summer, stripped-back electronics.",
+      "audio_file": "music/masters/08-star-sticker-funeral.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/web/08-scene.webp",
+          "master": "art/originals/08-scene.png",
+          "origin": "generated_2026-11-24"
+        },
+        {
+          "order": 2,
+          "kind": "artist_photo",
+          "file": "art/web/08-artist.webp",
+          "master": "art/originals/08-artist.png",
+          "origin": "generated_2026-11-24"
+        }
+      ],
+      "proposed_bpm": 73,
+      "energy_direction": "sparse reflective slow song",
+      "auditions_file": "music/remaining-auditions.json",
+      "proposed_meter": "4/4_half_time",
+      "proposed_harmony": "Fmaj7–C/E–Dm9–Gsus2",
+      "selected_song_url": "https://suno.com/song/bee0fa6b-a65e-4570-bee3-2b59c12ed756"
+    },
+    {
+      "track_number": 9,
+      "title": "Continue?",
+      "music_kind": "instrumental",
+      "proposed_music_brief": "Short instrumental interlude; suspended groove and a decision to continue.",
+      "audio_file": "music/masters/09-continue.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/web/09-scene.webp",
+          "master": "art/originals/09-scene.png",
+          "origin": "generated_2026-11-24"
+        },
+        {
+          "order": 2,
+          "kind": "artist_photo",
+          "file": "art/web/09-artist.webp",
+          "master": "art/originals/09-artist.png",
+          "origin": "generated_2026-11-24"
+        }
+      ],
+      "proposed_bpm": 101,
+      "energy_direction": "suspended instrumental interlude",
+      "auditions_file": "music/remaining-auditions.json",
+      "proposed_meter": "5/4",
+      "proposed_harmony": "Cm9–Abmaj7–Fm9–G7",
+      "selected_song_url": "https://suno.com/song/0fa2869e-ff3b-42fe-81ca-3ecb1691899b"
+    },
+    {
+      "track_number": 10,
+      "title": "Arcade Heaven",
+      "music_kind": "vocal",
+      "proposed_music_brief": "Vocal centerpiece; expansive but restrained, the world behind the screen.",
+      "audio_file": "music/masters/10-arcade-heaven.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/existing/03_01.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 2,
+          "kind": "scene",
+          "file": "art/existing/03_02.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 3,
+          "kind": "scene",
+          "file": "art/existing/03_03.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 4,
+          "kind": "scene",
+          "file": "art/existing/03_04.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 5,
+          "kind": "scene",
+          "file": "art/existing/03_05.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 6,
+          "kind": "scene",
+          "file": "art/existing/03_06.webp",
+          "origin": "existing_demo"
+        },
+        {
+          "order": 7,
+          "kind": "artist_photo",
+          "file": "art/existing/03_07.webp",
+          "origin": "existing_demo"
+        }
+      ],
+      "proposed_bpm": 104,
+      "energy_direction": "expansive electronic indie centerpiece",
+      "auditions_file": "music/remaining-auditions.json",
+      "proposed_meter": "4/4",
+      "proposed_harmony": "verse Dmaj9–A/C#–Bm9–E13; refrain F#m7–C#m7–Dmaj7–Eadd9",
+      "selected_song_url": "https://suno.com/song/d9ed4255-4d39-4438-9ca8-5579c4006eb7"
+    },
+    {
+      "track_number": 11,
+      "title": "Sunrise After Game Over",
+      "music_kind": "instrumental",
+      "proposed_music_brief": "Short instrumental closing reprise; morning, release of tension.",
+      "audio_file": "music/masters/11-sunrise-after-game-over.wav",
+      "audio_status": "downloaded_and_verified",
+      "art": [
+        {
+          "order": 1,
+          "kind": "scene",
+          "file": "art/web/11-scene.webp",
+          "master": "art/originals/11-scene.png",
+          "origin": "generated_2026-11-24"
+        },
+        {
+          "order": 2,
+          "kind": "artist_photo",
+          "file": "art/web/11-artist.webp",
+          "master": "art/originals/11-artist.png",
+          "origin": "generated_2026-11-24"
+        }
+      ],
+      "proposed_bpm": 78,
+      "energy_direction": "soft relaxed electronic indie groove, warm bass and quiet tape hiss",
+      "auditions_file": "music/sunrise-revision.json",
+      "proposed_meter": "4/4",
+      "proposed_harmony": "One suspended tonal area, minimal pitch movement",
+      "selected_song_url": "https://suno.com/song/2b89ad6a-768b-4dd6-b1be-6767622de8d7"
+    }
+  ],
+  "music_direction": {
+    "foundation": "Relaxed electronic indie, selected Bubblegum Meteor A",
+    "voice_source_song_id": "b6eb9590-1521-4458-8001-186223fafb72",
+    "voice_profile_url": "https://suno.com/voice/5e0b5c88-fb6c-4804-a285-ec2606c66bf5",
+    "voice_profile_public": false,
+    "variation": "Vary tempo, groove and instrumentation; upbeat tracks may use synth-pop and short 8-bit accents.",
+    "new_vocal_arrangement": "Single natural lead without continuous octave doubling; final title-song lines may use quiet thirds."
+  },
+  "admin_draft_id": "e213aa34-fb30-4b63-8734-4f1dc33349fa",
+  "ingestion_evidence_file": "evidence/admin-ingestion.json",
+  "delivery_format": {
+    "container": "m4a",
+    "codec": "AAC",
+    "target_bitrate": 256000,
+    "sample_rate": 48000,
+    "channels": 2,
+    "masters_preserved": true
+  },
+  "publication_blocker": null,
+  "album_url": "https://www.droptune.art/album/e213aa34-fb30-4b63-8734-4f1dc33349fa",
+  "supply_total": 512,
+  "web_commit": "784daf9",
+  "web_deployment_id": "dpl_9cQG5ypUuPQgwxA3xdAi1SQUSDZs"
+}
